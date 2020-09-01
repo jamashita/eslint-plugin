@@ -1,5 +1,8 @@
 module.exports = {
   'root': true,
+  'plugins': [
+    'jsx-a11y'
+  ],
   'parser': '@typescript-eslint/parser',
   'parserOptions': {
     'sourceType': 'module',
