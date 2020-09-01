@@ -1,0 +1,55 @@
+{
+  "name": "@jamashita/kafer",
+  "version": "0.1.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jamashita/kafer.git"
+  },
+  "license": "MIT",
+  "author": "jamashita <jamashita@arachnid.xyz>",
+  "main": "index.js",
+  "scripts": {
+    "build": "lerna run --parallel build",
+    "clean": "lerna run --parallel clean",
+    "format": "eslint --fix 'packages/**/src/**/*.{ts,tsx}'",
+    "preregister": "yarn build",
+    "register": "lerna publish",
+    "reset": "lerna clean",
+    "setup": "lerna bootstrap && lerna link",
+    "test": "jest test --detectOpenHandles --passWithNoTests",
+    "update": "yarn update:upgrade && yarn update:install",
+    "update:install": "yarn install && yarn upgrade && lerna run --parallel update:install",
+    "update:upgrade": "ncu --upgrade --timeout 600000 && lerna run --parallel update:upgrade",
+    "versionup": "lerna version --conventional-commits --conventional-graduate"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "14.6.2",
+    "@typescript-eslint/eslint-plugin": "4.0.1",
+    "@typescript-eslint/parser": "4.0.1",
+    "@typescript-eslint/typescript-estree": "4.0.1",
+    "eslint": "7.8.0",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-jest": "23.20.0",
+    "husky": "4.2.5",
+    "lint-staged": "10.2.13",
+    "npm-check-updates": "8.0.2",
+    "rimraf": "3.0.2",
+    "sort-package-json": "1.44.0",
+    "typescript": "4.0.2"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "4.0.1",
+    "@typescript-eslint/parser": "4.0.1",
+    "@typescript-eslint/typescript-estree": "4.0.1",
+    "eslint": "7.8.0",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-jest": "23.20.0"
+  },
+  "engines": {
+    "node": ">= 14.5.0",
+    "npm": "npm is not supported"
+  },
+  "engineStrict": true
+}
