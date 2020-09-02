@@ -10,7 +10,6 @@
   "author": "jamashita <jamashita@arachnid.xyz>",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
     "test": "echo 'TEST NOTHING!'",
     "update": "yarn update:upgrade && yarn update:install",
     "update:install": "yarn install && yarn upgrade",
