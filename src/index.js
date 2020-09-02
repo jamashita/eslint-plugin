@@ -1,3 +1,9 @@
-const eslintrc = require('./.eslintrc');
+const base = require('./base');
+const jest = require('./jest');
+const react = require('./react');
 
-module.exports = eslintrc;
+module.exports = {
+  base,
+  jest,
+  react
+};
