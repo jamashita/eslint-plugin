@@ -20,9 +20,12 @@ module.exports = {
   ],
   'env': {
     'browser': true,
-    'es6': true,
     'node': true,
+    'es6': true,
     'es2020': true
+  },
+  'globals': {
+    'NodeJS': false
   },
   'rules': {
     /* Eslint */
@@ -155,7 +158,7 @@ module.exports = {
     'no-void': 'error',
     'no-warning-comments': 'off',
     'no-with': 'error',
-    'prefer-named-capture-group': 'error',
+    'prefer-named-capture-group': 'off',
     'prefer-promise-reject-errors': 'error',
     'prefer-regex-literals': 'error',
     'radix': 'error',
@@ -173,9 +176,9 @@ module.exports = {
     'no-restricted-globals': 'error',
     'no-shadow': 'off',
     'no-shadow-restricted-names': 'error',
-    'no-undef': 'error',
+    'no-undef': 'off',
     'no-undef-init': 'error',
-    'no-undefined': 'error',
+    'no-undefined': 'off',
     'no-unused-vars': 'off',
     'no-use-before-define': 'off',
     // Stylistic Issues
@@ -673,9 +676,9 @@ module.exports = {
     'import/no-internal-modules': 'off',
     'import/no-webpack-loader-syntax': 'error',
     'import/no-self-import': 'error',
-    'import/no-cycle': 'error',
+    'import/no-cycle': 'off',
     'import/no-useless-path-segments': 'error',
-    'import/no-relative-parent-imports': 'error',
+    'import/no-relative-parent-imports': 'off',
     // Helpful warnings
     'import/export': 'error',
     'import/no-named-as-default': 'error',
@@ -698,7 +701,7 @@ module.exports = {
       'error',
       'never'
     ],
-    'import/order': 'error',
+    'import/order': 'off',
     'import/newline-after-import': 'error',
     'import/prefer-default-export': 'off',
     'import/max-dependencies': 'off',
