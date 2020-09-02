@@ -24,7 +24,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:import/errors',
     'plugin:import/warnings',
-    'plugin:node/recommended',
     'plugin:jsx-a11y/recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
@@ -680,8 +679,6 @@ module.exports = {
     ],
     /* import */
     'import/no-unresolved': 'off',
-    /* NODE */
-    'node/handle-callback-err': 'error',
     /* jsx-a11y */
     'jsx-a11y/alt-text': 'error',
     'jsx-a11y/anchor-has-content': 'error',
