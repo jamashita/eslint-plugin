@@ -4,9 +4,7 @@ module.exports = {
     'ecmaVersion': 2020,
     'ecmaFeatures': {
       'jsx': true
-    },
-    'project': './tsconfig.json',
-    'tsconfigRootDir': '.'
+    }
   },
   'plugins': [
     'jsx-a11y',
