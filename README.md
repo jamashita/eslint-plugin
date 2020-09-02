@@ -2,7 +2,7 @@
 
 ESLint Library bundle for us.
 
-# Requirement
+## Requirement
 
 ```json
 "@typescript-eslint/eslint-plugin": "4.0.1",
@@ -16,4 +16,18 @@ ESLint Library bundle for us.
 "eslint-plugin-react-hooks": "4.1.0",
 "jest": "26.4.2",
 "typescript": "4.0.2"
+```
+
+## Usage
+
+Add this into your `.eslintrc` file, `extends` section.
+
+```json
+'@jamashita/kafer'
+```
+
+```json
+'extends': [
+  '@jamashita/kafer'
+]
 ```
