@@ -11,7 +11,6 @@
   "main": "index.js",
   "scripts": {
     "format": "eslint --config index.js examples",
-    "format:base": "eslint --config base.js examples",
     "format:jest": "eslint --config jest.js examples",
     "format:react": "eslint --config react.js examples",
     "test": "echo 'TEST NOTHING!'",
