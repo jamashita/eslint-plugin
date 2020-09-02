@@ -24,6 +24,7 @@ these packages are required.
 
 ```text
 yarn add @jamashita/eslint-config \
+  @typescript-eslint/eslint-plugin \
   @typescript-eslint/parser \
   @typescript-eslint/typescript-estree \
   eslint \
@@ -32,7 +33,6 @@ yarn add @jamashita/eslint-config \
   eslint-plugin-jsx-a11y \
   eslint-plugin-react \
   eslint-plugin-react-hooks \
-  eslint/eslint-plugin \
   jest \
   typescript -D
 ```
