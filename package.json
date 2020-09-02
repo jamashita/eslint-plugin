@@ -19,7 +19,11 @@
     "update:install": "yarn install && yarn upgrade",
     "update:upgrade": "ncu --upgrade"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "14.6.2",
+    "@types/react": "16.9.49",
+    "@types/react-dom": "16.9.8",
     "@typescript-eslint/eslint-plugin": "4.0.1",
     "@typescript-eslint/parser": "4.0.1",
     "@typescript-eslint/typescript-estree": "4.0.1",
@@ -28,22 +32,27 @@
     "eslint-plugin-jsx-a11y": "6.3.1",
     "eslint-plugin-react": "7.20.6",
     "eslint-plugin-react-hooks": "4.1.0",
-    "jest": "26.4.2",
-    "typescript": "4.0.2"
-  },
-  "devDependencies": {
-    "@types/node": "14.6.2",
-    "@types/react": "16.9.49",
-    "@types/react-dom": "16.9.8",
     "husky": "4.2.5",
+    "jest": "26.4.2",
     "lint-staged": "10.2.13",
     "npm-check-updates": "8.0.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "sort-package-json": "1.44.0"
+    "sort-package-json": "1.44.0",
+    "typescript": "4.0.2"
   },
   "peerDependencies": {
-    "eslint": "7.8.1"
+    "@typescript-eslint/parser": "4.0.1",
+    "@typescript-eslint/typescript-estree": "4.0.1",
+    "eslint": "7.8.1",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-jest": "23.20.0",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-react": "7.20.6",
+    "eslint-plugin-react-hooks": "4.1.0",
+    "eslint/eslint-plugin": "4.0.1",
+    "jest": "26.4.2",
+    "typescript": "4.0.2"
   },
   "engines": {
     "node": ">= 14.5.0",
