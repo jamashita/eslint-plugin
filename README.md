@@ -1,4 +1,4 @@
-# Käfer
+# Eslint-Config
 
 ESLint Library bundle for us.
 
@@ -23,11 +23,11 @@ ESLint Library bundle for us.
 Add this into your `.eslintrc` file, `extends` section.
 
 ```json
-'@jamashita/kafer'
+'@jamashita/eslint-config'
 ```
 
 ```json
 'extends': [
-  '@jamashita/kafer'
+  '@jamashita/eslint-config'
 ]
 ```

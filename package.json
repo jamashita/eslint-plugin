@@ -1,10 +1,10 @@
 {
-  "name": "@jamashita/kafer",
+  "name": "@jamashita/eslint-config",
   "version": "1.0.0",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git@github.com:jamashita/kafer.git"
+    "url": "git@github.com:jamashita/eslint-config.git"
   },
   "license": "MIT",
   "author": "jamashita <jamashita@arachnid.xyz>",
