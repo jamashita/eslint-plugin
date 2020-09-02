@@ -45,3 +45,7 @@ Add this into your `.eslintrc` file, `extends` section.
   '@jamashita/eslint-config/react'
 ]
 ```
+
+## Lisence
+
+[MIT](LICENSE)
