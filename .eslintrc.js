@@ -12,9 +12,9 @@ module.exports = {
   },
   'plugins': [
     '@typescript-eslint',
+    'jsx-a11y',
     'react',
     'react-hooks',
-    'jsx-a11y',
     'jest'
   ],
   'extends': [
@@ -24,9 +24,10 @@ module.exports = {
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:import/errors',
     'plugin:import/warnings',
+    'plugin:node/recommended',
+    'plugin:jsx-a11y/recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    'plugin:jsx-a11y/recommended',
     'plugin:jest/recommended'
   ],
   'env': {
@@ -41,6 +42,7 @@ module.exports = {
     }
   },
   'rules': {
+    /* Eslint */
     // Possible Errors
     'for-direction': 'error',
     'getter-return': 'error',
@@ -357,6 +359,7 @@ module.exports = {
     'symbol-description': 'off',
     'template-curly-spacing': 'error',
     'yield-star-spacing': 'error',
+    /* a */
     // Supported Rules
     '@typescript-eslint/adjacent-overload-signatures': 'error',
     '@typescript-eslint/array-type': [
@@ -675,7 +678,69 @@ module.exports = {
         'asyncArrow': 'always'
       }
     ],
+    /* import */
     'import/no-unresolved': 'off',
+    /* NODE */
+    'node/handle-callback-err': 'error',
+    /* jsx-a11y */
+    'jsx-a11y/alt-text': 'error',
+    'jsx-a11y/anchor-has-content': 'error',
+    'jsx-a11y/anchor-is-valid': 'error',
+    'jsx-a11y/aria-activedescendant-has-tabindex': 'off',
+    'jsx-a11y/aria-props': 'error',
+    'jsx-a11y/aria-proptypes': 'error',
+    'jsx-a11y/aria-role': 'error',
+    'jsx-a11y/aria-unsupported-elements': 'error',
+    'jsx-a11y/autocomplete-valid': 'error',
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/heading-has-content': 'error',
+    'jsx-a11y/html-has-lang': 'off',
+    'jsx-a11y/iframe-has-title': 'error',
+    'jsx-a11y/img-redundant-alt': 'off',
+    'jsx-a11y/interactive-supports-focus': 'off',
+    'jsx-a11y/label-has-associated-control': 'off',
+    'jsx-a11y/lang': 'off',
+    'jsx-a11y/media-has-caption': 'error',
+    'jsx-a11y/mouse-events-have-key-events': 'error',
+    'jsx-a11y/no-access-key': 'error',
+    'jsx-a11y/no-autofocus': 'error',
+    'jsx-a11y/no-distracting-elements': 'error',
+    'jsx-a11y/no-interactive-element-to-noninteractive-role': 'error',
+    'jsx-a11y/no-noninteractive-element-interactions': [
+      'error',
+      {
+        handlers: [
+          'onClick',
+          'onMouseDown',
+          'onMouseUp',
+          'onKeyPress',
+          'onKeyDown',
+          'onKeyUp'
+        ]
+      }
+    ],
+    'jsx-a11y/no-noninteractive-element-to-interactive-role': 'error',
+    'jsx-a11y/no-noninteractive-tabindex': 'off',
+    'jsx-a11y/no-onchange': 'error',
+    'jsx-a11y/no-redundant-roles': 'error',
+    'jsx-a11y/no-static-element-interactions': [
+      'error',
+      {
+        handlers: [
+          'onClick',
+          'onMouseDown',
+          'onMouseUp',
+          'onKeyPress',
+          'onKeyDown',
+          'onKeyUp'
+        ]
+      }
+    ],
+    'jsx-a11y/role-has-required-aria-props': 'error',
+    'jsx-a11y/role-supports-aria-props': 'error',
+    'jsx-a11y/scope': 'error',
+    'jsx-a11y/tabindex-no-positive': 'error',
+    /* React */
     'react/boolean-prop-naming': 'off',
     'react/button-has-type': 'error',
     'react/default-props-match-prop-types': 'error',
@@ -883,65 +948,10 @@ module.exports = {
         'prop': 'parens-new-line'
       }
     ],
+    /* React hooks */
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'off',
-    'jsx-a11y/alt-text': 'error',
-    'jsx-a11y/anchor-has-content': 'error',
-    'jsx-a11y/anchor-is-valid': 'error',
-    'jsx-a11y/aria-activedescendant-has-tabindex': 'off',
-    'jsx-a11y/aria-props': 'error',
-    'jsx-a11y/aria-proptypes': 'error',
-    'jsx-a11y/aria-role': 'error',
-    'jsx-a11y/aria-unsupported-elements': 'error',
-    'jsx-a11y/autocomplete-valid': 'error',
-    'jsx-a11y/click-events-have-key-events': 'off',
-    'jsx-a11y/heading-has-content': 'error',
-    'jsx-a11y/html-has-lang': 'off',
-    'jsx-a11y/iframe-has-title': 'error',
-    'jsx-a11y/img-redundant-alt': 'off',
-    'jsx-a11y/interactive-supports-focus': 'off',
-    'jsx-a11y/label-has-associated-control': 'off',
-    'jsx-a11y/lang': 'off',
-    'jsx-a11y/media-has-caption': 'error',
-    'jsx-a11y/mouse-events-have-key-events': 'error',
-    'jsx-a11y/no-access-key': 'error',
-    'jsx-a11y/no-autofocus': 'error',
-    'jsx-a11y/no-distracting-elements': 'error',
-    'jsx-a11y/no-interactive-element-to-noninteractive-role': 'error',
-    'jsx-a11y/no-noninteractive-element-interactions': [
-      'error',
-      {
-        handlers: [
-          'onClick',
-          'onMouseDown',
-          'onMouseUp',
-          'onKeyPress',
-          'onKeyDown',
-          'onKeyUp'
-        ]
-      }
-    ],
-    'jsx-a11y/no-noninteractive-element-to-interactive-role': 'error',
-    'jsx-a11y/no-noninteractive-tabindex': 'off',
-    'jsx-a11y/no-onchange': 'error',
-    'jsx-a11y/no-redundant-roles': 'error',
-    'jsx-a11y/no-static-element-interactions': [
-      'error',
-      {
-        handlers: [
-          'onClick',
-          'onMouseDown',
-          'onMouseUp',
-          'onKeyPress',
-          'onKeyDown',
-          'onKeyUp'
-        ]
-      }
-    ],
-    'jsx-a11y/role-has-required-aria-props': 'error',
-    'jsx-a11y/role-supports-aria-props': 'error',
-    'jsx-a11y/scope': 'error',
-    'jsx-a11y/tabindex-no-positive': 'error',
+    /* Jest */
     'jest/consistent-test-it': [
       'error',
       {
