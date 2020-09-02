@@ -676,7 +676,7 @@ module.exports = {
     'import/no-internal-modules': 'off',
     'import/no-webpack-loader-syntax': 'error',
     'import/no-self-import': 'error',
-    'import/no-cycle': 'error',
+    'import/no-cycle': 'off',
     'import/no-useless-path-segments': 'error',
     'import/no-relative-parent-imports': 'off',
     // Helpful warnings
