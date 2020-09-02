@@ -4,6 +4,8 @@ ESLint Library bundle for us.
 
 ## Requirement
 
+these packages are required.
+
 ```json
 "@typescript-eslint/eslint-plugin": "4.0.1",
 "@typescript-eslint/parser": "4.0.1",
@@ -21,7 +23,18 @@ ESLint Library bundle for us.
 ## Install
 
 ```text
-yarn add @jamashita/eslint-config -D
+yarn add @jamashita/eslint-config \
+  @typescript-eslint/parser \
+  @typescript-eslint/typescript-estree \
+  eslint \
+  eslint-plugin-import \
+  eslint-plugin-jest \
+  eslint-plugin-jsx-a11y \
+  eslint-plugin-react \
+  eslint-plugin-react-hooks \
+  eslint/eslint-plugin \
+  jest \
+  typescript -D
 ```
 
 ## Usage
