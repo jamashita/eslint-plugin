@@ -1,11 +1,5 @@
 module.exports = {
   'root': true,
-  'plugins': [
-    'react',
-    'react-hooks',
-    'jsx-a11y',
-    'jest'
-  ],
   'parser': '@typescript-eslint/parser',
   'parserOptions': {
     'sourceType': 'module',
@@ -16,16 +10,23 @@ module.exports = {
     'project': './tsconfig.json',
     'tsconfigRootDir': '.'
   },
+  'plugins': [
+    '@typescript-eslint',
+    'react',
+    'react-hooks',
+    'jsx-a11y',
+    'jest'
+  ],
   'extends': [
     'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/recommended',
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:jest/recommended'
   ],
   'env': {
