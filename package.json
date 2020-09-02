@@ -11,10 +11,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "clean": "rimraf dist",
-    "format": "eslint --fix 'src/**/*.{ts,tsx}'",
-    "preregister": "yarn build",
-    "test": "jest test --detectOpenHandles --passWithNoTests",
+    "test": "echo 'TEST NOTHING!'",
     "update": "yarn update:upgrade && yarn update:install",
     "update:install": "yarn install && yarn upgrade",
     "update:upgrade": "ncu --upgrade"
@@ -28,11 +25,11 @@
     "eslint-plugin-import": "2.22.0",
     "eslint-plugin-jest": "23.20.0",
     "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-node": "11.1.0",
     "eslint-plugin-react-hooks": "4.1.0",
     "husky": "4.2.5",
     "lint-staged": "10.2.13",
     "npm-check-updates": "8.0.3",
-    "rimraf": "3.0.2",
     "sort-package-json": "1.44.0"
   },
   "peerDependencies": {
@@ -43,6 +40,7 @@
     "eslint-plugin-import": "2.22.0",
     "eslint-plugin-jest": "23.20.0",
     "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-node": "11.1.0",
     "eslint-plugin-react-hooks": "4.1.0"
   },
   "engines": {
