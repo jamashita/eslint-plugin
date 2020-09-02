@@ -10,7 +10,7 @@
   "author": "jamashita <jamashita@arachnid.xyz>",
   "main": "index.js",
   "scripts": {
-    "format": "yarn format:base && yarn format:react && yarn format:jest",
+    "format": "eslint --config index.js examples",
     "format:base": "eslint --config base.js examples",
     "format:jest": "eslint --config jest.js examples",
     "format:react": "eslint --config react.js examples",
