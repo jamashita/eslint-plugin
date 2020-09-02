@@ -18,6 +18,12 @@ ESLint Library bundle for us.
 "typescript": "4.0.2"
 ```
 
+## Install
+
+```text
+yarn add @jamashita/eslint-config -D
+```
+
 ## Usage
 
 Add this into your `.eslintrc` file, `extends` section.
