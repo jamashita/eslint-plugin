@@ -2,6 +2,7 @@ module.exports = {
   'root': true,
   'plugins': [
     'react',
+    'react-hooks',
     'jsx-a11y'
   ],
   'parser': '@typescript-eslint/parser',
@@ -841,6 +842,8 @@ module.exports = {
         'prop': 'parens-new-line'
       }
     ],
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'off',
     'jsx-a11y/alt-text': 'error',
     'jsx-a11y/anchor-has-content': 'error',
     'jsx-a11y/anchor-is-valid': 'error',
