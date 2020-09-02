@@ -516,9 +516,9 @@
   integrity sha512-oN3y7FAROHhrAt7Rr7PnTSwrHrZVRTS2ZbyxeQwSSYD0ifwM3YNgQqbaRmjcWoPyq77MjchusjJDspbzMmip1Q==
 
 "@npmcli/git@^2.0.1":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@npmcli/git/-/git-2.0.3.tgz#41a13cc698d257c7e38a287e233dafe7354dd4ab"
-  integrity sha512-c/ODsV5ppjB12VDXKc6hzVNgg6ZJX/etILUn3WgF5NLAYBhQLJ3fBq6uB2jQD4OwqOzJdPT1/xA3Xh3aaWGk5w==
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@npmcli/git/-/git-2.0.4.tgz#725f5e32864f3849420e84baf130e426a707cbb7"
+  integrity sha512-OJZCmJ9DNn1cz9HPXXsPmUBnqaArot3CGYo63CyajHQk+g87rPXVOJByGsskQJhPsUUEXJcsZ2Q6bWd2jSwnBA==
   dependencies:
     "@npmcli/promise-spawn" "^1.1.0"
     lru-cache "^6.0.0"
