@@ -23,11 +23,25 @@ ESLint Library bundle for us.
 Add this into your `.eslintrc` file, `extends` section.
 
 ```json
+// Below all
 '@jamashita/eslint-config'
+// for TypeScript
+'@jamashita/eslint-config/base'
+// for Jest 
+'@jamashita/eslint-config/jest'
+// for React
+'@jamashita/eslint-config/react'
 ```
 
 ```json
 'extends': [
+  // Below all
   '@jamashita/eslint-config'
+  // for TypeScript
+  '@jamashita/eslint-config/base'
+  // for Jest 
+  '@jamashita/eslint-config/jest'
+  // for React
+  '@jamashita/eslint-config/react'
 ]
 ```

@@ -15,7 +15,8 @@ module.exports = {
     'browser': true,
     'es6': true,
     'node': true,
-    'es2020': true
+    'es2020': true,
+    'jest': true
   },
   'rules': {
     /* Jest */
