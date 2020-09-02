@@ -64,7 +64,7 @@ module.exports = {
     'jest/prefer-to-be-undefined': 'error',
     'jest/prefer-to-contain': 'error',
     'jest/prefer-to-have-length': 'error',
-    'jest/prefer-todd': 'error',
+    'jest/prefer-todo': 'error',
     'jest/require-to-throw-message': 'off',
     'jest/require-top-level-describe': 'error',
     'jest/valid-describe': 'error',
