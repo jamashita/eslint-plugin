@@ -18,6 +18,8 @@
   "dependencies": {},
   "devDependencies": {
     "@types/node": "14.6.2",
+    "@types/react": "16.9.49",
+    "@types/react-dom": "16.9.8",
     "@typescript-eslint/eslint-plugin": "4.0.1",
     "@typescript-eslint/parser": "4.0.1",
     "@typescript-eslint/typescript-estree": "4.0.1",
@@ -31,6 +33,8 @@
     "jest": "26.4.2",
     "lint-staged": "10.2.13",
     "npm-check-updates": "8.0.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
     "sort-package-json": "1.44.0",
     "typescript": "4.0.2"
   },
