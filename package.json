@@ -8,12 +8,11 @@
   },
   "license": "MIT",
   "author": "jamashita <jamashita@arachnid.xyz>",
-  "main": "index.js",
   "scripts": {
     "format": "eslint --config index.js examples",
     "format:jest": "eslint --config jest.js examples",
     "format:react": "eslint --config react.js examples",
-    "test": "echo 'TEST NOTHING!'",
+    "test": "echo 'NO TESTS!!!'",
     "update": "yarn update:upgrade && yarn update:install",
     "update:install": "yarn install && yarn upgrade",
     "update:upgrade": "ncu --upgrade"
