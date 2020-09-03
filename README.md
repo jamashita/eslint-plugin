@@ -39,11 +39,20 @@ yarn add @jamashita/eslint-config \
   typescript -D
 ```
 
-## Rules
+### Append in `.eslintrc`
+
+```json
+'extends': [
+  // for TypeScript
+  '@jamashita/eslint-config'
+]
+```
 
 ### `@jamashita/eslint-config/jest`
 
 Jest config. Jest required.
+
+### Install
 
 ```text
 yarn add @jamashita/eslint-config \
@@ -52,11 +61,20 @@ yarn add @jamashita/eslint-config \
   jest -D
 ```
 
-## Rules
+### Append in `.eslintrc`
+
+```json
+'extends': [
+  // for Jest 
+  '@jamashita/eslint-config/jest'
+]
+```
 
 ### `@jamashita/eslint-config/react`
 
 React config.
+
+### Install
 
 ```text
 yarn add @jamashita/eslint-config \
@@ -66,25 +84,10 @@ yarn add @jamashita/eslint-config \
   eslint-plugin-react-hooks -D
 ```
 
-## Usage
-
-Add one or more of these into your `.eslintrc` file, `extends` section.
-
-```json
-// for TypeScript
-'@jamashita/eslint-config'
-// for Jest 
-'@jamashita/eslint-config/jest'
-// for React
-'@jamashita/eslint-config/react'
-```
+### Append in `.eslintrc`
 
 ```json
 'extends': [
-  // for TypeScript
-  '@jamashita/eslint-config'
-  // for Jest 
-  '@jamashita/eslint-config/jest'
   // for React
   '@jamashita/eslint-config/react'
 ]
