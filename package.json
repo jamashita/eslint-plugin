@@ -20,7 +20,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/node": "14.6.2",
+    "@types/node": "14.6.3",
     "@types/react": "16.9.49",
     "@types/react-dom": "16.9.8",
     "@typescript-eslint/eslint-plugin": "4.0.1",
@@ -35,7 +35,7 @@
     "husky": "4.2.5",
     "jest": "26.4.2",
     "lint-staged": "10.2.13",
-    "npm-check-updates": "8.0.3",
+    "npm-check-updates": "8.0.5",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "sort-package-json": "1.44.0",
