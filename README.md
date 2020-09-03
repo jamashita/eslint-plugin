@@ -43,7 +43,6 @@ yarn add @jamashita/eslint-config \
 
 ```json
 'extends': [
-  // for TypeScript
   '@jamashita/eslint-config'
 ]
 ```
@@ -65,7 +64,6 @@ yarn add @jamashita/eslint-config \
 
 ```json
 'extends': [
-  // for Jest 
   '@jamashita/eslint-config/jest'
 ]
 ```
@@ -88,7 +86,6 @@ yarn add @jamashita/eslint-config \
 
 ```json
 'extends': [
-  // for React
   '@jamashita/eslint-config/react'
 ]
 ```
