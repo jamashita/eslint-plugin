@@ -86,7 +86,7 @@ module.exports = {
     'array-callback-return': 'off',
     'block-scoped-var': 'error',
     'class-methods-use-this': 'off',
-    'complexity': 'error',
+    'complexity': 'off',
     'consistent-return': 'error',
     'curly': [
       'error',
