@@ -127,7 +127,7 @@ module.exports = {
     'no-iterator': 'error',
     'no-labels': 'error',
     'no-lone-blocks': 'error',
-    'no-loop-func': 'error',
+    'no-loop-func': 'off',
     'no-magic-numbers': 'off',
     'no-multi-spaces': 'off',
     'no-multi-str': 'error',
@@ -629,6 +629,7 @@ module.exports = {
     ],
     '@typescript-eslint/no-extra-semi': 'error',
     '@typescript-eslint/no-invalid-this': 'error',
+    '@typescript-eslint/no-loop-func': 'error',
     '@typescript-eslint/no-loss-of-precision': 'error',
     '@typescript-eslint/no-magic-numbers': 'off',
     '@typescript-eslint/no-redeclare': [
