@@ -629,7 +629,7 @@ module.exports = {
     ],
     '@typescript-eslint/no-extra-semi': 'error',
     '@typescript-eslint/no-invalid-this': 'error',
-    '@typescript-eslint/no-loop-func': 'error',
+    '@typescript-eslint/no-loop-func': 'off',
     '@typescript-eslint/no-loss-of-precision': 'error',
     '@typescript-eslint/no-magic-numbers': 'off',
     '@typescript-eslint/no-redeclare': [
