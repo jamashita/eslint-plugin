@@ -135,7 +135,7 @@ module.exports = {
     ],
     'react/prefer-read-only-props': 'error',
     'react/prefer-stateless-function': 'error',
-    'react/prop-types': 'error',
+    'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'error',
     'react/require-default-props': 'error',
     'react/require-optimization': 'error',
@@ -203,7 +203,15 @@ module.exports = {
       'error',
       'never'
     ],
-    'react/jsx-filename-extension': 'error',
+    'react/jsx-filename-extension': [
+      'error',
+      {
+        'extensions': [
+          'jsx',
+          'tsx'
+        ]
+      }
+    ],
     'react/jsx-first-prop-new-line': [
       'error',
       'multiline'
@@ -230,12 +238,7 @@ module.exports = {
         'checkFragmentShorthand': true
       }
     ],
-    'react/jsx-max-depth': [
-      'error',
-      {
-        'max': 5
-      }
-    ],
+    'react/jsx-max-depth': 'off',
     'react/jsx-max-props-per-line': [
       'error',
       {
