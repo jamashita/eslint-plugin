@@ -29,7 +29,8 @@ module.exports = {
       'error',
       {
         'ignore': [
-          'describe'
+          'describe',
+          'it'
         ]
       }
     ],
