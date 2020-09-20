@@ -9,6 +9,7 @@
   "license": "MIT",
   "author": "jamashita <jamashita@arachnid.xyz>",
   "scripts": {
+    "commit": "git cz",
     "format": "eslint --config index.js examples",
     "format:jest": "eslint --config jest.js examples",
     "format:react": "eslint --config react.js examples",
@@ -19,6 +20,8 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
     "@types/node": "14.11.1",
     "@types/react": "16.9.49",
     "@types/react-dom": "16.9.8",
@@ -31,6 +34,7 @@
     "eslint-plugin-jsx-a11y": "6.3.1",
     "eslint-plugin-react": "7.20.6",
     "eslint-plugin-react-hooks": "4.1.2",
+    "git-cz": "4.7.1",
     "husky": "4.3.0",
     "jest": "26.4.2",
     "lint-staged": "10.4.0",
@@ -38,7 +42,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "sort-package-json": "1.46.0",
-    "typescript": "4.0.2"
+    "typescript": "4.0.3"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "4.1.1",
@@ -51,7 +55,7 @@
     "eslint-plugin-react": "7.20.6",
     "eslint-plugin-react-hooks": "4.1.2",
     "jest": "26.4.2",
-    "typescript": "4.0.2"
+    "typescript": "4.0.3"
   },
   "engines": {
     "node": ">= 14.5.0",
