@@ -695,7 +695,7 @@ module.exports = {
     'import/no-nodejs-modules': 'off',
     // Style guide
     'import/first': 'error',
-    'import/exports-last': 'error',
+    'import/exports-last': 'off',
     'import/no-duplicates': 'error',
     'import/no-namespace': 'error',
     'import/extensions': [
