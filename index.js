@@ -192,7 +192,7 @@ module.exports = {
     'brace-style': 'off',
     'camelcase': 'error',
     'capitalized-comments': 'off',
-    'comma-dangle': 'error',
+    'comma-dangle': 'off',
     'comma-spacing': 'off',
     'comma-style': 'error',
     'computed-property-spacing': 'error',
@@ -593,6 +593,7 @@ module.exports = {
       'error',
       'stroustrup'
     ],
+    '@typescript-eslint/comma-dangle': 'error',
     '@typescript-eslint/comma-spacing': 'error',
     '@typescript-eslint/default-param-last': 'off',
     '@typescript-eslint/dot-notation': 'error',
