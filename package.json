@@ -14,7 +14,6 @@
     "format:jest": "eslint --config jest.js examples",
     "format:react": "eslint --config react.js examples",
     "release": "semantic-release",
-    "test": "echo 'NO TESTS!!!'",
     "update": "yarn update:upgrade && yarn update:install",
     "update:install": "yarn install && yarn upgrade",
     "update:upgrade": "ncu --upgrade"
