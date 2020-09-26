@@ -2,7 +2,7 @@ name: 'Release'
 on:
   push:
     branches:
-      - 'release/*'
+      - 'release'
 jobs:
   release:
     if: '!contains(github.event.head_commit.message, ''skip ci'')'
@@ -19,6 +19,8 @@ jobs:
           fetch-depth: 0
       - name: 'Install dependencies'
         run: 'yarn install --frozen-lockfile'
+      - name: 'Transpile'
+        run: 'yarn build'
       - name: 'Release'
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
