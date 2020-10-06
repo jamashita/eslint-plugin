@@ -11,19 +11,20 @@ these packages are required.
 
 ```json
 {
-  "@typescript-eslint/eslint-plugin": "4.2.0",
-  "@typescript-eslint/parser": "4.2.0",
-  "@typescript-eslint/typescript-estree": "4.2.0",
-  "eslint": "7.9.0",
-  "eslint-plugin-import": "2.22.0",
-  "eslint-plugin-jest": "24.0.2",
+  "@typescript-eslint/eslint-plugin": "4.4.0",
+  "@typescript-eslint/parser": "4.4.0",
+  "@typescript-eslint/typescript-estree": "4.4.0",
+  "eslint": "7.10.0",
+  "eslint-plugin-import": "2.22.1",
+  "eslint-plugin-jest": "24.1.0",
   "eslint-plugin-jsx-a11y": "6.3.1",
-  "eslint-plugin-react": "7.21.0",
+  "eslint-plugin-react": "7.21.3",
   "eslint-plugin-react-hooks": "4.1.2",
-  "jest": "26.4.2",
+  "jest": "26.5.0",
   "typescript": "4.0.3"
 }
 ```
+
 ## Rules
 
 ### `@jamashita/eslint-config`
@@ -46,7 +47,7 @@ yarn add @jamashita/eslint-config \
 
 ```json
 'extends': [
-  '@jamashita/eslint-config'
+'@jamashita/eslint-config'
 ]
 ```
 
@@ -67,7 +68,7 @@ yarn add @jamashita/eslint-config \
 
 ```json
 'extends': [
-  '@jamashita/eslint-config/jest'
+'@jamashita/eslint-config/jest'
 ]
 ```
 
@@ -89,10 +90,10 @@ yarn add @jamashita/eslint-config \
 
 ```json
 'extends': [
-  '@jamashita/eslint-config/react'
+'@jamashita/eslint-config/react'
 ]
 ```
 
-## Lisence
+## License
 
 [MIT](LICENSE)
