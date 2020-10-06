@@ -322,7 +322,7 @@ module.exports = {
     'no-confusing-arrow': 'error',
     'no-const-assign': 'error',
     'no-dupe-class-members': 'off',
-    'no-duplicate-imports': 'error',
+    'no-duplicate-imports': 'off',
     'no-new-symbol': 'error',
     'no-restricted-exports': 'error',
     'no-restricted-imports': 'error',
@@ -362,6 +362,10 @@ module.exports = {
     '@typescript-eslint/class-literal-property-style': [
       'error',
       'fields'
+    ],
+    '@typescript-eslint/consistent-indexed-object-style': [
+      'error',
+      'index-signature'
     ],
     '@typescript-eslint/consistent-type-assertions': [
       'error',
@@ -616,6 +620,7 @@ module.exports = {
     '@typescript-eslint/lines-between-class-members': 'off',
     '@typescript-eslint/no-array-constructor': 'error',
     '@typescript-eslint/no-dupe-class-members': 'error',
+    '@typescript-eslint/no-duplicate-imports': 'error',
     '@typescript-eslint/no-empty-function': [
       'error',
       {
