@@ -299,7 +299,7 @@ module.exports = {
       'error',
       'never'
     ],
-    'space-infix-ops': 'error',
+    'space-infix-ops': 'off',
     'space-unary-ops': 'error',
     'spaced-comment': [
       'error',
@@ -524,6 +524,7 @@ module.exports = {
     '@typescript-eslint/no-unnecessary-qualifier': 'error',
     '@typescript-eslint/no-unnecessary-type-arguments': 'off',
     '@typescript-eslint/no-unnecessary-type-assertion': 'error',
+    '@typescript-eslint/no-unnecessary-type-constraint': 'error',
     '@typescript-eslint/no-unsafe-assignment': 'error',
     '@typescript-eslint/no-unsafe-call': 'error',
     '@typescript-eslint/no-unsafe-member-access': 'error',
@@ -671,6 +672,7 @@ module.exports = {
         'asyncArrow': 'always'
       }
     ],
+    '@typescript-eslint/space-infix-ops': 'error',
     /* import */
     // Static analysis
     'import/no-unresolved': 'off',
