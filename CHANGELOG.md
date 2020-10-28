@@ -1,3 +1,11 @@
+# [1.6.0](https://github.com/jamashita/eslint-config/compare/v1.5.0...v1.6.0) (2020-10-28)
+
+
+### Features
+
+* 🎸 udate ([8fc4e12](https://github.com/jamashita/eslint-config/commit/8fc4e1214825a9980b8cc8476b947bfc4818d0e7))
+* 🎸 udpate ([8d7f32b](https://github.com/jamashita/eslint-config/commit/8d7f32b34e4759befa67fe45ad3b388e0e38efe0))
+
 # [1.5.0](https://github.com/jamashita/eslint-config/compare/v1.4.0...v1.5.0) (2020-10-19)
 
 
