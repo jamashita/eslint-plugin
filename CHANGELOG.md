@@ -1,3 +1,17 @@
+# [1.7.0](https://github.com/jamashita/eslint-config/compare/v1.6.0...v1.7.0) (2020-10-30)
+
+
+### Bug Fixes
+
+* 🐛 index signature over Record ([fdbad5e](https://github.com/jamashita/eslint-config/commit/fdbad5e27a36c1956e838292b6d5e541b9476318))
+* 🐛 temporary removed added (?) feature ([fd3e784](https://github.com/jamashita/eslint-config/commit/fd3e7842676b4068df3561a7dd5ce3d3e983cb41))
+
+
+### Features
+
+* 🎸 udpate ([19c388f](https://github.com/jamashita/eslint-config/commit/19c388fb4a7b2d90f87e6977a89c65584276dc1f))
+* 🎸 update for es2021 ([a6d9695](https://github.com/jamashita/eslint-config/commit/a6d969517de3d9d10beade3e95a2eec2cf958148))
+
 # [1.6.0](https://github.com/jamashita/eslint-config/compare/v1.5.0...v1.6.0) (2020-10-28)
 
 
