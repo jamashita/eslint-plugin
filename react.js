@@ -1,27 +1,30 @@
 module.exports = {
+  'env': {
+    'browser': true,
+    'es2020': true,
+    'es2021': true,
+    'es6': true,
+    'node': true,
+  },
+  'extends': [
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:jsx-a11y/recommended',
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended'
+  ],
   'parserOptions': {
-    'sourceType': 'module',
-    'ecmaVersion': 2020,
     'ecmaFeatures': {
       'jsx': true
-    }
+    },
+    'ecmaVersion': 12,
+    'sourceType': 'module'
   },
   'plugins': [
     'jsx-a11y',
     'react',
     'react-hooks'
   ],
-  'extends': [
-    'plugin:jsx-a11y/recommended',
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended'
-  ],
-  'env': {
-    'browser': true,
-    'es6': true,
-    'node': true,
-    'es2020': true
-  },
   'settings': {
     'react': {
       'version': 'detect'
@@ -253,7 +256,7 @@ module.exports = {
       }
     ],
     'react/jsx-no-comment-textnodes': 'error',
-    'react/jsx-no-constructed-context-values': 'error',
+    // 'react/jsx-no-constructed-context-values': 'error',
     'react/jsx-no-duplicate-props': 'error',
     'react/jsx-no-literals': 'off',
     'react/jsx-no-script-url': 'error',

@@ -1,6 +1,6 @@
 {
   "name": "@jamashita/eslint-config",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "private": false,
   "repository": {
     "type": "git",
@@ -10,9 +10,9 @@
   "author": "jamashita <jamashita@arachnid.xyz>",
   "scripts": {
     "commit": "git cz",
-    "format": "eslint --config index.js examples",
-    "format:jest": "eslint --config jest.js examples",
-    "format:react": "eslint --config react.js examples",
+    "format": "eslint --config index.js 'examples/**/*'",
+    "format:jest": "eslint --config jest.js 'examples/**/*'",
+    "format:react": "eslint --config react.js 'examples/**/*'",
     "release": "semantic-release",
     "update": "yarn update:upgrade && yarn update:install",
     "update:install": "yarn install && yarn upgrade",
@@ -28,8 +28,8 @@
     "@semantic-release/github": "7.1.1",
     "@semantic-release/npm": "7.0.6",
     "@semantic-release/release-notes-generator": "9.0.1",
-    "@types/node": "14.14.5",
-    "@types/react": "16.9.54",
+    "@types/node": "14.14.6",
+    "@types/react": "16.9.55",
     "@types/react-dom": "16.9.9",
     "@typescript-eslint/eslint-plugin": "4.6.0",
     "@typescript-eslint/parser": "4.6.0",
@@ -47,7 +47,7 @@
     "npm-check-updates": "9.2.3",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "semantic-release": "17.2.1",
+    "semantic-release": "17.2.2",
     "sort-package-json": "1.46.1",
     "typescript": "4.0.5"
   },
