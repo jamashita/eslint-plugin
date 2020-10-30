@@ -1,14 +1,11 @@
 module.exports = {
-  'parserOptions': {
-    'sourceType': 'module',
-    'ecmaVersion': 2020,
-    'project': './tsconfig.json',
-    'tsconfigRootDir': '.'
+  'env': {
+    'browser': true,
+    'es2020': true,
+    'es2021': true,
+    'es6': true,
+    'node': true
   },
-  'plugins': [
-    '@typescript-eslint',
-    'import'
-  ],
   'extends': [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
@@ -18,15 +15,20 @@ module.exports = {
     'plugin:import/warnings',
     'plugin:import/typescript'
   ],
-  'env': {
-    'browser': true,
-    'node': true,
-    'es6': true,
-    'es2020': true
-  },
   'globals': {
     'NodeJS': false
   },
+  'parser': '@typescript-eslint/parser',
+  'parserOptions': {
+    'ecmaVersion': 12,
+    'project': './tsconfig.json',
+    'sourceType': 'module',
+    'tsconfigRootDir': '.'
+  },
+  'plugins': [
+    'import',
+    '@typescript-eslint'
+  ],
   'rules': {
     /* Eslint */
     // Possible Errors
