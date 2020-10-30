@@ -1,21 +1,23 @@
 module.exports = {
+  'env': {
+    'es2020': true,
+    'es2021': true,
+    'es6': true,
+    'jest': true,
+    'node': true
+  },
+  'extends': [
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:jest/recommended'
+  ],
   'parserOptions': {
-    'sourceType': 'module',
-    'ecmaVersion': 2020
+    'ecmaVersion': 12,
+    'sourceType': 'module'
   },
   'plugins': [
     'jest'
   ],
-  'extends': [
-    'plugin:jest/recommended'
-  ],
-  'env': {
-    'browser': true,
-    'node': true,
-    'es6': true,
-    'es2020': true,
-    'jest': true
-  },
   'rules': {
     /* Jest */
     'jest/consistent-test-it': [
