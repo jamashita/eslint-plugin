@@ -1,14 +1,14 @@
 module.exports = {
   'env': {
-    'browser': true,
-    'es6': true,
     'es2020': true,
     'es2021': true,
+    'es6': true,
     'jest': true,
     'node': true
   },
   'extends': [
-    './index.js',
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
     'plugin:jest/recommended'
   ],
   'parserOptions': {

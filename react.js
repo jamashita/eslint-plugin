@@ -7,7 +7,8 @@ module.exports = {
     'node': true,
   },
   'extends': [
-    './index.js',
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
     'plugin:jsx-a11y/recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended'
@@ -255,7 +256,7 @@ module.exports = {
       }
     ],
     'react/jsx-no-comment-textnodes': 'error',
-    'react/jsx-no-constructed-context-values': 'error',
+    // 'react/jsx-no-constructed-context-values': 'error',
     'react/jsx-no-duplicate-props': 'error',
     'react/jsx-no-literals': 'off',
     'react/jsx-no-script-url': 'error',
