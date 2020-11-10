@@ -5,7 +5,7 @@
 
 ESLint Library bundle for us.
 
-## Requirement
+## Requisite
 
 these packages are required.
 
