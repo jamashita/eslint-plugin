@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/jamashita/eslint-config/compare/v1.7.0...v1.7.1) (2020-10-30)
+
+
+### Bug Fixes
+
+* 🐛 no extends opoption ([5f701d0](https://github.com/jamashita/eslint-config/commit/5f701d07c455fc436ddde77491df5373a8cc69d9))
+
 # [1.7.0](https://github.com/jamashita/eslint-config/compare/v1.6.0...v1.7.0) (2020-10-30)
 
 
