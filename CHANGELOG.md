@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/jamashita/eslint-config/compare/v1.13.0...v1.14.0) (2020-12-28)
+
+
+### Features
+
+* 🎸 udpate ([26e5717](https://github.com/jamashita/eslint-config/commit/26e57173483a8d9ba6e0c6522a1c9008b9270dd9))
+
 # [1.13.0](https://github.com/jamashita/eslint-config/compare/v1.12.0...v1.13.0) (2020-12-19)
 
 
