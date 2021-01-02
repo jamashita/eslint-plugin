@@ -1,3 +1,12 @@
+# [1.16.0](https://github.com/jamashita/eslint-config/compare/v1.15.0...v1.16.0) (2021-01-02)
+
+
+### Features
+
+* 🎸 coinfigu updated ([93812ef](https://github.com/jamashita/eslint-config/commit/93812ef879a2ce76448d4147c53f739b16ebfa9f))
+* 🎸 eslint-plugin-node imported and configured ([82fbde1](https://github.com/jamashita/eslint-config/commit/82fbde183aa206b7e162657adb5588546c6a0fcf))
+* 🎸 update ([b3fa562](https://github.com/jamashita/eslint-config/commit/b3fa562eeeaac04ed9200fc572e00389cabdc114))
+
 # [1.15.0](https://github.com/jamashita/eslint-config/compare/v1.14.0...v1.15.0) (2020-12-29)
 
 
