@@ -739,8 +739,30 @@ module.exports = {
     'node/no-exports-assign': 'off',
     'node/no-extraneous-import': 'off',
     'node/no-extraneous-require': 'off',
-    'node/no-missing-import': 'error',
-    'node/no-missing-require': 'error',
+    'node/no-missing-import': [
+      'error',
+      {
+        'tryExtensions': [
+          '.js',
+          '.jsx',
+          '.json',
+          '.ts',
+          '.tsx'
+        ]
+      }
+    ],
+    'node/no-missing-require': [
+      'error',
+      {
+        'tryExtensions': [
+          '.js',
+          '.jsx',
+          '.json',
+          '.ts',
+          '.tsx'
+        ]
+      }
+    ],
     'node/no-new-require': 'error',
     'node/no-path-concat': 'error',
     'node/no-process-exit': 'error',
