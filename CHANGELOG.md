@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/jamashita/eslint-config/compare/v1.16.0...v1.17.0) (2021-01-02)
+
+
+### Features
+
+* 🎸 added extension option ([8756994](https://github.com/jamashita/eslint-config/commit/875699402e0d6341e0e41fbe2e65cfc13e1f9e80))
+
 # [1.16.0](https://github.com/jamashita/eslint-config/compare/v1.15.0...v1.16.0) (2021-01-02)
 
 
