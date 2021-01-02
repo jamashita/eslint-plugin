@@ -14,11 +14,11 @@ these packages are required.
   "@typescript-eslint/eslint-plugin": "4.11.1",
   "@typescript-eslint/parser": "4.11.1",
   "@typescript-eslint/typescript-estree": "4.11.1",
-  "eslint": "7.15.0",
+  "eslint": "7.17.0",
   "eslint-plugin-import": "2.22.1",
   "eslint-plugin-jest": "24.1.3",
   "eslint-plugin-jsx-a11y": "6.4.1",
-  "eslint-plugin-react": "7.21.5",
+  "eslint-plugin-react": "7.22.0",
   "eslint-plugin-react-hooks": "4.2.0",
   "jest": "26.6.3",
   "typescript": "4.1.3"
