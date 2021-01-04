@@ -1,3 +1,10 @@
+# [1.20.0](https://github.com/jamashita/eslint-config/compare/v1.19.0...v1.20.0) (2021-01-04)
+
+
+### Features
+
+* 🎸 missing import option turned off ([94d438e](https://github.com/jamashita/eslint-config/commit/94d438e9bac5061f7e91ebeab89e5737520c066d))
+
 # [1.19.0](https://github.com/jamashita/eslint-config/compare/v1.18.0...v1.19.0) (2021-01-04)
 
 
