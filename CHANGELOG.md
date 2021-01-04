@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/jamashita/eslint-config/compare/v1.18.0...v1.19.0) (2021-01-04)
+
+
+### Features
+
+* 🎸 update ([6ce6208](https://github.com/jamashita/eslint-config/commit/6ce6208f68d278c8eaf18d7db87e6cd250c6d406))
+
 # [1.18.0](https://github.com/jamashita/eslint-config/compare/v1.17.0...v1.18.0) (2021-01-04)
 
 
