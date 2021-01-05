@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/jamashita/eslint-config/compare/v1.20.0...v1.21.0) (2021-01-05)
+
+
+### Features
+
+* 🎸 new option appended ([edb475c](https://github.com/jamashita/eslint-config/commit/edb475c65807857292cf13270eaffdc1a6c553d8))
+
 # [1.20.0](https://github.com/jamashita/eslint-config/compare/v1.19.0...v1.20.0) (2021-01-04)
 
 
