@@ -566,6 +566,7 @@ module.exports = {
         'allowBoolean': true
       }
     ],
+    '@typescript-eslint/sort-type-union-intersection-members': 'error',
     '@typescript-eslint/strict-boolean-expressions': [
       'error',
       {
