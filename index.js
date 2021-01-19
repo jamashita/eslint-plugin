@@ -271,16 +271,7 @@ module.exports = {
         'consistent': true
       }
     ],
-    'object-curly-spacing': [
-      'error',
-      'always'
-    ],
-    'object-property-newline': [
-      'error',
-      {
-        'allowAllPropertiesOnSameLine': false
-      }
-    ],
+    'object-curly-spacing': 'off',
     'one-var': [
       'error',
       'never'
@@ -669,6 +660,16 @@ module.exports = {
     ],
     '@typescript-eslint/no-use-before-define': 'error',
     '@typescript-eslint/no-useless-constructor': 'error',
+    '@typescript-eslint/object-curly-spacing': [
+      'error',
+      'always'
+    ],
+    'object-property-newline': [
+      'error',
+      {
+        'allowAllPropertiesOnSameLine': false
+      }
+    ],
     '@typescript-eslint/quotes': [
       'error',
       'single'
