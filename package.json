@@ -1,6 +1,6 @@
 {
   "name": "@jamashita/eslint-config",
-  "version": "1.23.1",
+  "version": "1.24.0",
   "private": false,
   "repository": {
     "type": "git",
@@ -71,6 +71,7 @@
   },
   "engineStrict": true,
   "publishConfig": {
+    "access": "public",
     "registry": "https://npm.pkg.github.com/"
   }
 }
