@@ -1,3 +1,10 @@
+## [1.23.1](https://github.com/jamashita/eslint-config/compare/v1.23.0...v1.23.1) (2021-01-19)
+
+
+### Bug Fixes
+
+* 🐛 version fitting ([0d3742c](https://github.com/jamashita/eslint-config/commit/0d3742c0962b9b12ee5b342c97a3d15d9230b5c9))
+
 # [1.23.0](https://github.com/jamashita/eslint-config/compare/v1.22.0...v1.23.0) (2021-01-19)
 
 

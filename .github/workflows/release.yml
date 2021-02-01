@@ -9,10 +9,11 @@ jobs:
     runs-on: 'ubuntu-latest'
     timeout-minutes: 15
     steps:
-      - name: 'Use Node.js 14.5'
+      - name: 'Use Node.js 12.0'
         uses: 'actions/setup-node@v1'
         with:
-          node-version: '14.5'
+          node-version: '12.0'
+          registry-url: 'https://npm.pkg.github.com'
       - name: 'Check out repository'
         uses: 'actions/checkout@v2'
         with:
@@ -21,6 +22,5 @@ jobs:
         run: 'yarn install --frozen-lockfile'
       - name: 'Release'
         env:
-          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
-          NPM_TOKEN: '${{ secrets.NPM_TOKEN }}'
+          NODE_AUTH_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
         run: 'yarn release'
