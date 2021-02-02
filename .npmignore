@@ -1,1 +1,9 @@
-examples
+.github/
+.idea/
+examples/
+.editorconfig
+.huskyrc
+.lintstagedrc.json
+.releaserc.json
+commitlint.config.js
+tsconfig.json
