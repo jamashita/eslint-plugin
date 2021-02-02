@@ -1,3 +1,10 @@
+# [1.26.0](https://github.com/jamashita/eslint-config/compare/v1.25.0...v1.26.0) (2021-02-02)
+
+
+### Features
+
+* 🎸 removed @semantic-release/npm ([e96db3c](https://github.com/jamashita/eslint-config/commit/e96db3c9add444be77574e32b583f65fc6513dfd))
+
 # [1.25.0](https://github.com/jamashita/eslint-config/compare/v1.24.6...v1.25.0) (2021-02-02)
 
 
