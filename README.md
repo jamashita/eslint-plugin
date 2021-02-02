@@ -11,9 +11,9 @@ these packages are required.
 
 ```json
 {
-  "@typescript-eslint/eslint-plugin": "4.14.1",
-  "@typescript-eslint/parser": "4.14.1",
-  "@typescript-eslint/typescript-estree": "4.14.1",
+  "@typescript-eslint/eslint-plugin": "4.14.2",
+  "@typescript-eslint/parser": "4.14.2",
+  "@typescript-eslint/typescript-estree": "4.14.2",
   "eslint": "7.19.0",
   "eslint-plugin-import": "2.22.1",
   "eslint-plugin-jest": "24.1.3",
