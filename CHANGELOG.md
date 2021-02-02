@@ -1,3 +1,10 @@
+# [1.25.0](https://github.com/jamashita/eslint-config/compare/v1.24.6...v1.25.0) (2021-02-02)
+
+
+### Features
+
+* 🎸 update ([849df12](https://github.com/jamashita/eslint-config/commit/849df1226add8470dc31f91ed0cada81ce5610c5))
+
 # [1.24.0](https://github.com/jamashita/eslint-config/compare/v1.23.1...v1.24.0) (2021-02-01)
 
 
