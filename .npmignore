@@ -2,6 +2,7 @@
 .idea/
 examples/
 .editorconfig
+.eslintignore
 .huskyrc
 .lintstagedrc.json
 .releaserc.json
