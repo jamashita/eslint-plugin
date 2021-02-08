@@ -1,3 +1,4 @@
+
 # Created by https://www.toptal.com/developers/gitignore/api/linux,macos,windows,node,intellij
 # Edit at https://www.toptal.com/developers/gitignore?templates=linux,macos,windows,node,intellij
 
@@ -289,3 +290,9 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/linux,macos,windows,node,intellij
+
+# Rush temporary files
+common/deploy/
+common/temp/
+common/autoinstallers/*/.npmrc
+**/.rush/temp/
