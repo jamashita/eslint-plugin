@@ -11,8 +11,6 @@ jobs:
     steps:
       - name: 'Check out repository'
         uses: 'actions/checkout@v2'
-        with:
-          fetch-depth: 0
       - name: 'Use Node.js 12.0'
         uses: 'actions/setup-node@v2'
         with:
@@ -24,4 +22,4 @@ jobs:
       - name: 'Release'
         run: 'yarn release'
         env:
-          NODE_AUTH_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
