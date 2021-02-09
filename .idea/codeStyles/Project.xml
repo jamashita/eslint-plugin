@@ -11,7 +11,8 @@
       <option name="SPACES_WITHIN_IMPORTS" value="true" />
       <option name="IMPORT_SORT_MODULE_NAME" value="true" />
     </JSCodeStyleSettings>
-    <MySQLCodeStyleSettings version="2">
+    <MySQLCodeStyleSettings version="5">
+      <option name="USE_GENERAL_STYLE" value="false" />
       <option name="DISABLE_FORMATTING" value="true" />
       <option name="TABLE_TYPES_ALIGN" value="false" />
       <option name="TABLE_DEFAULTS_ALIGN" value="false" />
