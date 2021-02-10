@@ -5,7 +5,7 @@ on:
       - 'release'
 jobs:
   release:
-    if: '!contains(github.event.head_commit.message, ''skip ci'')'
+    if: '!contains(github.event.head_commit.message, ''skip ci'') && contains(github.ref, ''main'')'
     runs-on: 'ubuntu-latest'
     timeout-minutes: 15
     steps:
@@ -17,9 +17,9 @@ jobs:
           node-version: '12.0'
           registry-url: 'https://npm.pkg.github.com'
           scope: '@jamashita'
-      - name: 'Install dependencies'
+      - name: 'Set up'
         run: 'yarn install --frozen-lockfile'
-      - name: 'Release'
+      - name: 'Publish to GitHub Package Registry'
         run: 'yarn release'
         env:
-          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+          NODE_AUTH_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
