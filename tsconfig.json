@@ -101,8 +101,8 @@
     /* Disallow inconsistently-cased references to the same file. */
   },
   "exclude": [
-    "dist",
-    "node_modules"
+    "node_modules",
+    "dist"
   ],
   "compileOnSave": false
 }
