@@ -17,7 +17,7 @@ jobs:
           node-version: '12.0'
       - name: 'Set up'
         run: 'yarn install --frozen-lockfile'
-      - name: 'Publish to GitHub Package Registry'
+      - name: 'Publish to NPM'
         run: 'yarn release'
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
