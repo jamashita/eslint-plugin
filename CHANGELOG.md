@@ -1,3 +1,10 @@
+# [1.30.0](https://github.com/jamashita/eslint-config/compare/v1.29.1...v1.30.0) (2021-02-12)
+
+
+### Features
+
+* 🎸 package.json up ([ab377ec](https://github.com/jamashita/eslint-config/commit/ab377ecf8ff832912dc7b7e9709297ec4cdb161b))
+
 # [1.29.0](https://github.com/jamashita/eslint-config/compare/v1.28.0...v1.29.0) (2021-02-12)
 
 
