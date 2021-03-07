@@ -11,18 +11,18 @@ these packages are required.
 
 ```json
 {
-  "@typescript-eslint/eslint-plugin": "4.15.0",
-  "@typescript-eslint/parser": "4.15.0",
-  "@typescript-eslint/typescript-estree": "4.15.0",
-  "eslint": "7.19.0",
+  "@typescript-eslint/eslint-plugin": "4.16.1",
+  "@typescript-eslint/parser": "4.16.1",
+  "@typescript-eslint/typescript-estree": "4.16.1",
+  "eslint": "7.21.0",
   "eslint-plugin-import": "2.22.1",
-  "eslint-plugin-jest": "24.1.3",
+  "eslint-plugin-jest": "24.1.7",
   "eslint-plugin-jsx-a11y": "6.4.1",
   "eslint-plugin-node": "11.1.0",
   "eslint-plugin-react": "7.22.0",
   "eslint-plugin-react-hooks": "4.2.0",
   "jest": "26.6.3",
-  "typescript": "4.1.3"
+  "typescript": "4.2.3"
 }
 ```
 
