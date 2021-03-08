@@ -16,7 +16,7 @@ these packages are required.
   "@typescript-eslint/typescript-estree": "4.16.1",
   "eslint": "7.21.0",
   "eslint-plugin-import": "2.22.1",
-  "eslint-plugin-jest": "24.1.7",
+  "eslint-plugin-jest": "24.1.9",
   "eslint-plugin-jsx-a11y": "6.4.1",
   "eslint-plugin-node": "11.1.0",
   "eslint-plugin-react": "7.22.0",
