@@ -1,3 +1,11 @@
+# [1.32.0](https://github.com/jamashita/eslint-config/compare/v1.31.0...v1.32.0) (2021-03-08)
+
+
+### Features
+
+* 🎸 removed some packages from peerDependencies ([9e754e6](https://github.com/jamashita/eslint-config/commit/9e754e6945a40f7268a7e99263be134eae2e2000))
+* 🎸 update ([03549bf](https://github.com/jamashita/eslint-config/commit/03549bf0b60372098e2fa9c8416f6d4f8b969a39))
+
 # [1.31.0](https://github.com/jamashita/eslint-config/compare/v1.30.0...v1.31.0) (2021-03-07)
 
 
