@@ -30,50 +30,6 @@ yarn add @jamashita/eslint-config \
 }
 ```
 
-### `@jamashita/eslint-config-jest`
-
-Jest config. Jest required.
-
-#### Install
-
-```text
-yarn add @jamashita/eslint-config \
-  eslint \
-  jest -D
-```
-
-### Append in `.eslintrc`
-
-```json
-{
-  "extends": [
-    "@jamashita/eslint-config/jest"
-  ]
-}
-```
-
-### `@jamashita/eslint-config-react`
-
-React config. React required.
-
-#### Install
-
-```text
-yarn add @jamashita/eslint-config \
-  eslint \
-  react -D
-```
-
-### Append in `.eslintrc`
-
-```json
-{
-  "extends": [
-    "@jamashita/eslint-config/react"
-  ]
-}
-```
-
 ## License
 
 [MIT](LICENSE)
