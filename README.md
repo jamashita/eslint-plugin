@@ -9,12 +9,23 @@ ESLint Library bundle for us.
 
 ### `@jamashita/eslint-config`
 
+#### Install
+
+```text
+yarn add @jamashita/eslint-config \
+  @typescript-eslint/eslint-plugin \
+  @typescript-eslint/parser \
+  @typescript-eslint/typescript-estree \
+  eslint \
+  typescript -D
+```
+
 ### Append in `.eslintrc`
 
 ```json
 {
   "extends": [
-    "@jamashita"
+    "@jamashita/eslint-config"
   ]
 }
 ```
@@ -23,12 +34,20 @@ ESLint Library bundle for us.
 
 Jest config. Jest required.
 
+#### Install
+
+```text
+yarn add @jamashita/eslint-config \
+  eslint \
+  jest -D
+```
+
 ### Append in `.eslintrc`
 
 ```json
 {
   "extends": [
-    "@jamashita/jest"
+    "@jamashita/eslint-config/jest"
   ]
 }
 ```
@@ -37,12 +56,20 @@ Jest config. Jest required.
 
 React config. React required.
 
+#### Install
+
+```text
+yarn add @jamashita/eslint-config \
+  eslint \
+  react -D
+```
+
 ### Append in `.eslintrc`
 
 ```json
 {
   "extends": [
-    "@jamashita/react"
+    "@jamashita/eslint-config/react"
   ]
 }
 ```
