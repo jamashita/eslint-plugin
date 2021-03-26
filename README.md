@@ -9,73 +9,40 @@ ESLint Library bundle for us.
 
 ### `@jamashita/eslint-config`
 
-Base config. TypeScript required.
-
-### Install
-
-```text
-yarn add @jamashita/eslint-config \
-  @typescript-eslint/eslint-plugin \
-  @typescript-eslint/parser \
-  eslint \
-  eslint-plugin-import \
-  eslint-plugin-node \
-  typescript -D
-```
-
 ### Append in `.eslintrc`
 
 ```json
 {
   "extends": [
-    "@jamashita/eslint-config"
+    "@jamashita"
   ]
 }
 ```
 
-### `@jamashita/eslint-config/jest`
+### `@jamashita/eslint-config-jest`
 
 Jest config. Jest required.
 
-### Install
-
-```text
-yarn add @jamashita/eslint-config \
-  eslint \
-  eslint-plugin-jest \
-  jest -D
-```
-
 ### Append in `.eslintrc`
 
 ```json
 {
   "extends": [
-    "@jamashita/eslint-config/jest"
+    "@jamashita/jest"
   ]
 }
 ```
 
-### `@jamashita/eslint-config/react`
+### `@jamashita/eslint-config-react`
 
-React config.
-
-### Install
-
-```text
-yarn add @jamashita/eslint-config \
-  eslint \
-  eslint-plugin-jsx-a11y \
-  eslint-plugin-react \
-  eslint-plugin-react-hooks -D
-```
+React config. React required.
 
 ### Append in `.eslintrc`
 
 ```json
 {
   "extends": [
-    "@jamashita/eslint-config/react"
+    "@jamashita/react"
   ]
 }
 ```
