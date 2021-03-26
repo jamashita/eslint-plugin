@@ -484,7 +484,8 @@ module.exports = {
     '@typescript-eslint/no-extraneous-class': [
       'error',
       {
-        'allowStaticOnly': true
+        'allowStaticOnly': true,
+        'allowWithDecorator': true
       }
     ],
     '@typescript-eslint/no-floating-promises': 'error',
