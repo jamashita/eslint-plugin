@@ -1,3 +1,15 @@
+# [1.33.0](https://github.com/jamashita/eslint-config/compare/v1.32.0...v1.33.0) (2021-03-08)
+
+
+### Bug Fixes
+
+* 🐛 revert peerdependency ([26c08fd](https://github.com/jamashita/eslint-config/commit/26c08fd77d9b6af0b405cae9166e4e3ea08337bb))
+
+
+### Features
+
+* 🎸 version increased ([cb82c01](https://github.com/jamashita/eslint-config/commit/cb82c01cf01305934cea197501517c53595a619b))
+
 # [1.32.0](https://github.com/jamashita/eslint-config/compare/v1.31.0...v1.32.0) (2021-03-08)
 
 
