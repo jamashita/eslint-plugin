@@ -17,9 +17,6 @@ module.exports = {
     'es2021': true,
     'es6': true
   },
-  'globals': {
-    'NodeJS': false
-  },
   'rules': {
     /* import */
     // Static analysis
