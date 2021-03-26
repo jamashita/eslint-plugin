@@ -11,8 +11,6 @@
   "scripts": {
     "commit": "git cz",
     "format": "eslint --config index.js 'examples/**/*'",
-    "format:jest": "eslint --config jest.js 'examples/**/*'",
-    "format:react": "eslint --config react.js 'examples/**/*'",
     "release": "semantic-release",
     "update": "yarn update:upgrade && yarn update:install",
     "update:install": "yarn install && yarn upgrade",
@@ -50,6 +48,12 @@
     "semantic-release": "17.4.2",
     "sort-package-json": "1.49.0",
     "typescript": "4.2.3"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "4.19.0",
+    "@typescript-eslint/parser": "4.19.0",
+    "@typescript-eslint/typescript-estree": "4.19.0",
+    "eslint": "7.22.0"
   },
   "engines": {
     "node": ">= 12.0.0",
