@@ -11,8 +11,6 @@
   "scripts": {
     "commit": "git cz",
     "format": "eslint --config index.js 'examples/**/*'",
-    "format:jest": "eslint --config jest.js 'examples/**/*'",
-    "format:react": "eslint --config react.js 'examples/**/*'",
     "release": "semantic-release",
     "update": "yarn update:upgrade && yarn update:install",
     "update:install": "yarn install && yarn upgrade",

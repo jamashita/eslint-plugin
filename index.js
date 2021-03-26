@@ -4,6 +4,7 @@ module.exports = {
     'es2020': true,
     'es2021': true,
     'es6': true,
+    'jest': true,
     'node': true
   },
   'extends': [
@@ -14,21 +15,109 @@ module.exports = {
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:import/typescript',
-    'plugin:node/recommended'
+    'plugin:node/recommended',
+    'plugin:jsx-a11y/recommended',
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
+    'plugin:jest/recommended'
   ],
   'globals': {
     'NodeJS': false
   },
   'parser': '@typescript-eslint/parser',
   'parserOptions': {
-    'ecmaVersion': 2020,
+    'ecmaFeatures': {
+      'jsx': true
+    },
+    'ecmaVersion': 2021,
     'sourceType': 'module',
     'project': './tsconfig.json',
     'tsconfigRootDir': '.'
   },
   'plugins': [
     'import',
+    'jsx-a11y',
+    'react',
+    'react-hooks',
+    'jest',
     '@typescript-eslint'
+  ],
+  'settings': {
+    'react': {
+      'version': 'detect'
+    },
+    'jest': {
+      'version': 26
+    }
+  },
+  'overrides': [
+    {
+      'files': [
+        '**.spec.ts',
+        '**.test.ts',
+        '__specs__/**',
+        '__tests__/**'
+      ],
+      'rules': {
+        /* Rules */
+        'jest/consistent-test-it': [
+          'error',
+          {
+            'fn': 'it'
+          }
+        ],
+        'jest/expect-expect': 'error',
+        'jest/lowercase-name': [
+          'error',
+          {
+            'ignore': [
+              'describe',
+              'it'
+            ]
+          }
+        ],
+        'jest/no-alias-methods': 'error',
+        'jest/no-commented-out-tests': 'error',
+        'jest/no-conditional-expect': 'off',
+        'jest/no-deprecated-functions': 'error',
+        'jest/no-disabled-tests': 'off',
+        'jest/no-done-callback': 'off',
+        'jest/no-duplicate-hooks': 'error',
+        'jest/no-export': 'error',
+        'jest/no-focused-tests': 'off',
+        'jest/no-hooks': 'off',
+        'jest/no-identical-title': 'error',
+        'jest/no-if': 'off',
+        'jest/no-interpolation-in-snapshots': 'error',
+        'jest/no-jasmine-globals': 'off',
+        'jest/no-jest-import': 'error',
+        'jest/no-large-snapshots': 'error',
+        'jest/no-mocks-import': 'error',
+        'jest/no-restricted-matchers': 'off',
+        'jest/no-standalone-expect': 'error',
+        'jest/no-test-prefixes': 'off',
+        'jest/no-test-return-statement': 'off',
+        'jest/prefer-called-with': 'error',
+        'jest/prefer-expect-assertions': 'error',
+        'jest/prefer-hooks-on-top': 'error',
+        'jest/prefer-spy-on': 'error',
+        'jest/prefer-strict-equal': 'error',
+        'jest/prefer-to-be-null': 'error',
+        'jest/prefer-to-be-undefined': 'error',
+        'jest/prefer-to-contain': 'error',
+        'jest/prefer-to-have-length': 'error',
+        'jest/prefer-todo': 'error',
+        'jest/require-to-throw-message': 'off',
+        'jest/require-top-level-describe': 'error',
+        'jest/valid-describe': 'error',
+        'jest/valid-expect': 'error',
+        'jest/valid-expect-in-promise': 'error',
+        'jest/valid-title': 'error',
+        /* TypeScript Rules */
+        '@typescript-eslint/unbound-method': 'off',
+        'jest/unbound-method': 'error'
+      }
+    }
   ],
   'rules': {
     /* Eslint */
@@ -799,6 +888,280 @@ module.exports = {
       'always'
     ],
     'node/prefer-promises/dns': 'error',
-    'node/prefer-promises/fs': 'error'
+    'node/prefer-promises/fs': 'error',
+    /* jsx-a11y */
+    'jsx-a11y/alt-text': 'error',
+    'jsx-a11y/anchor-has-content': 'error',
+    'jsx-a11y/anchor-is-valid': 'error',
+    'jsx-a11y/aria-activedescendant-has-tabindex': 'off',
+    'jsx-a11y/aria-props': 'error',
+    'jsx-a11y/aria-proptypes': 'error',
+    'jsx-a11y/aria-role': 'error',
+    'jsx-a11y/aria-unsupported-elements': 'error',
+    'jsx-a11y/autocomplete-valid': 'error',
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/heading-has-content': 'error',
+    'jsx-a11y/html-has-lang': 'off',
+    'jsx-a11y/iframe-has-title': 'error',
+    'jsx-a11y/img-redundant-alt': 'off',
+    'jsx-a11y/interactive-supports-focus': 'off',
+    'jsx-a11y/label-has-associated-control': 'off',
+    'jsx-a11y/lang': 'off',
+    'jsx-a11y/media-has-caption': 'error',
+    'jsx-a11y/mouse-events-have-key-events': 'error',
+    'jsx-a11y/no-access-key': 'error',
+    'jsx-a11y/no-autofocus': 'error',
+    'jsx-a11y/no-distracting-elements': 'error',
+    'jsx-a11y/no-interactive-element-to-noninteractive-role': 'error',
+    'jsx-a11y/no-noninteractive-element-interactions': [
+      'error',
+      {
+        handlers: [
+          'onClick',
+          'onMouseDown',
+          'onMouseUp',
+          'onKeyPress',
+          'onKeyDown',
+          'onKeyUp'
+        ]
+      }
+    ],
+    'jsx-a11y/no-noninteractive-element-to-interactive-role': 'error',
+    'jsx-a11y/no-noninteractive-tabindex': 'off',
+    'jsx-a11y/no-onchange': 'error',
+    'jsx-a11y/no-redundant-roles': 'error',
+    'jsx-a11y/no-static-element-interactions': [
+      'error',
+      {
+        handlers: [
+          'onClick',
+          'onMouseDown',
+          'onMouseUp',
+          'onKeyPress',
+          'onKeyDown',
+          'onKeyUp'
+        ]
+      }
+    ],
+    'jsx-a11y/role-has-required-aria-props': 'error',
+    'jsx-a11y/role-supports-aria-props': 'error',
+    'jsx-a11y/scope': 'error',
+    'jsx-a11y/tabindex-no-positive': 'error',
+    /* React */
+    'react/boolean-prop-naming': 'off',
+    'react/button-has-type': 'error',
+    'react/default-props-match-prop-types': 'error',
+    'react/destructuring-assignment': 'error',
+    'react/display-name': 'off',
+    'react/forbid-component-props': 'off',
+    'react/forbid-dom-props': 'off',
+    'react/forbid-elements': 'off',
+    'react/forbid-foreign-prop-types': 'error',
+    'react/forbid-prop-types': 'off',
+    'react/function-component-definition': [
+      'error',
+      {
+        'namedComponents': 'arrow-function',
+        'unnamedComponents': 'arrow-function'
+      }
+    ],
+    'react/no-access-state-in-setstate': 'error',
+    'react/no-adjacent-inline-elements': 'error',
+    'react/no-array-index-key': 'error',
+    'react/no-children-prop': 'error',
+    'react/no-danger': 'error',
+    'react/no-danger-with-children': 'error',
+    'react/no-deprecated': 'error',
+    'react/no-did-mount-set-state': 'error',
+    'react/no-did-update-set-state': 'error',
+    'react/no-direct-mutation-state': 'error',
+    'react/no-find-dom-node': 'error',
+    'react/no-is-mounted': 'error',
+    'react/no-multi-comp': 'error',
+    'react/no-redundant-should-component-update': 'error',
+    'react/no-render-return-value': 'error',
+    'react/no-set-state': 'error',
+    'react/no-string-refs': 'error',
+    'react/no-this-in-sfc': 'error',
+    'react/no-typos': 'error',
+    'react/no-unescaped-entities': 'error',
+    'react/no-unknown-property': 'error',
+    'react/no-unsafe': 'error',
+    'react/no-unused-prop-types': 'error',
+    'react/no-unused-state': 'error',
+    'react/no-will-update-set-state': 'error',
+    'react/prefer-es6-class': [
+      'error',
+      'always'
+    ],
+    'react/prefer-read-only-props': 'error',
+    'react/prefer-stateless-function': 'error',
+    'react/prop-types': 'off',
+    'react/react-in-jsx-scope': 'error',
+    'react/require-default-props': 'error',
+    'react/require-optimization': 'error',
+    'react/require-render-return': 'error',
+    'react/self-closing-comp': [
+      'error',
+      {
+        'component': true,
+        'html': true
+      }
+    ],
+    'react/sort-comp': [
+      'error',
+      {
+        'order': [
+          'static-methods',
+          'lifecycle',
+          'render',
+          'everything-else'
+        ]
+      }
+    ],
+    'react/sort-prop-types': 'off',
+    'react/state-in-constructor': [
+      'error',
+      'always'
+    ],
+    'react/static-property-placement': 'off',
+    'react/style-prop-object': 'error',
+    'react/void-dom-elements-no-children': 'error',
+    'react/jsx-boolean-value': [
+      'error',
+      'always'
+    ],
+    'react/jsx-child-element-spacing': 'error',
+    'react/jsx-closing-bracket-location': [
+      'error',
+      {
+        'nonEmpty': 'tag-aligned',
+        'selfClosing': 'tag-aligned'
+      }
+    ],
+    'react/jsx-closing-tag-location': 'error',
+    'react/jsx-curly-brace-presence': [
+      'error',
+      {
+        'props': 'never',
+        'children': 'never'
+      }
+    ],
+    'react/jsx-curly-newline': [
+      'error',
+      {
+        'multiline': 'consistent',
+        'singleline': 'consistent'
+      }
+    ],
+    'react/jsx-curly-spacing': [
+      'error',
+      {
+        'when': 'never'
+      }
+    ],
+    'react/jsx-equals-spacing': [
+      'error',
+      'never'
+    ],
+    'react/jsx-filename-extension': [
+      'error',
+      {
+        'extensions': [
+          'jsx',
+          'tsx'
+        ]
+      }
+    ],
+    'react/jsx-first-prop-new-line': [
+      'error',
+      'multiline'
+    ],
+    'react/jsx-fragments': [
+      'error',
+      'syntax'
+    ],
+    'react/jsx-handler-names': 'error',
+    'react/jsx-indent': [
+      'error',
+      2,
+      {
+        'indentLogicalExpressions': true
+      }
+    ],
+    'react/jsx-indent-props': [
+      'error',
+      2
+    ],
+    'react/jsx-key': [
+      'error',
+      {
+        'checkFragmentShorthand': true
+      }
+    ],
+    'react/jsx-max-depth': 'off',
+    'react/jsx-max-props-per-line': [
+      'error',
+      {
+        'when': 'multiline'
+      }
+    ],
+    'react/jsx-newline': 'off',
+    'react/jsx-no-bind': [
+      'error',
+      {
+        'allowArrowFunctions': true
+      }
+    ],
+    'react/jsx-no-comment-textnodes': 'error',
+    // 'react/jsx-no-constructed-context-values': 'error',
+    'react/jsx-no-duplicate-props': 'error',
+    'react/jsx-no-literals': 'off',
+    'react/jsx-no-script-url': 'error',
+    'react/jsx-no-target-blank': [
+      'error',
+      {
+        'enforceDynamicLinks': 'always'
+      }
+    ],
+    'react/jsx-no-undef': 'error',
+    'react/jsx-no-useless-fragment': 'error',
+    'react/jsx-one-expression-per-line': [
+      'error',
+      {
+        'allow': 'single-child'
+      }
+    ],
+    'react/jsx-pascal-case': 'error',
+    'react/jsx-props-no-multi-spaces': 'error',
+    'react/jsx-props-no-spreading': 'error',
+    'react/jsx-sort-default-props': 'off',
+    'react/jsx-sort-props': 'off',
+    'react/jsx-tag-spacing': [
+      'error',
+      {
+        'closingSlash': 'never',
+        'beforeSelfClosing': 'always',
+        'afterOpening': 'never',
+        'beforeClosing': 'never'
+      }
+    ],
+    'react/jsx-uses-react': 'error',
+    'react/jsx-uses-vars': 'error',
+    'react/jsx-wrap-multilines': [
+      'error',
+      {
+        'declaration': 'parens-new-line',
+        'assignment': 'parens-new-line',
+        'return': 'parens-new-line',
+        'arrow': 'parens-new-line',
+        'condition': 'parens-new-line',
+        'logical': 'parens-new-line',
+        'prop': 'parens-new-line'
+      }
+    ],
+    /* React hooks */
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'off'
   }
 };
