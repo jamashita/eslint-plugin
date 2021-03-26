@@ -1,3 +1,17 @@
+# [1.34.0](https://github.com/jamashita/eslint-config/compare/v1.33.0...v1.34.0) (2021-03-26)
+
+
+### Bug Fixes
+
+* 🐛 new option adopted ([7eef67d](https://github.com/jamashita/eslint-config/commit/7eef67dac03705c246196011f20d8405d57dfb2b))
+
+
+### Features
+
+* 🎸 jest settings update ([02e8268](https://github.com/jamashita/eslint-config/commit/02e82680109fa0fc8969d0fc82000d9b90adf86f))
+* 🎸 update ([8501129](https://github.com/jamashita/eslint-config/commit/85011293f7bbb267b8ef80ab496e6910e0401d73))
+* 🎸 yarn update and pm specified ([94f411b](https://github.com/jamashita/eslint-config/commit/94f411b2cecfb34360e661dfcd776ea3753c378e))
+
 # [1.33.0](https://github.com/jamashita/eslint-config/compare/v1.32.0...v1.33.0) (2021-03-08)
 
 
