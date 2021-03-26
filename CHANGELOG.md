@@ -1,3 +1,12 @@
+# [1.35.0](https://github.com/jamashita/eslint-config/compare/v1.34.0...v1.35.0) (2021-03-26)
+
+
+### Features
+
+* 🎸 even stricter option ([66292e0](https://github.com/jamashita/eslint-config/commit/66292e0644912c4cf42488c437292a526d353939))
+* 🎸 removed unnecessary files ([a384ce6](https://github.com/jamashita/eslint-config/commit/a384ce666683f58f9735e75d13c5cbda330ba258))
+* 🎸 update ([a4151b9](https://github.com/jamashita/eslint-config/commit/a4151b90ac0eb9cc666c8800781051cb1a9d9bfd))
+
 # [1.34.0](https://github.com/jamashita/eslint-config/compare/v1.33.0...v1.34.0) (2021-03-26)
 
 
