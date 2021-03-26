@@ -15,8 +15,7 @@ module.exports = {
     'browser': true,
     'es2020': true,
     'es2021': true,
-    'es6': true,
-    'node': true
+    'es6': true
   },
   'globals': {
     'NodeJS': false
