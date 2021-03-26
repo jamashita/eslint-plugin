@@ -88,6 +88,5 @@ module.exports = {
         'jest/unbound-method': 'error'
       }
     }
-  ],
-  'rules': {}
+  ]
 };
