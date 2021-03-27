@@ -1,3 +1,26 @@
+# [1.36.0](https://github.com/jamashita/eslint-plugin-jama/compare/v1.35.0...v1.36.0) (2021-03-27)
+
+
+### Bug Fixes
+
+* 🐛 file separation wip ([6b381b4](https://github.com/jamashita/eslint-plugin-jama/commit/6b381b48b89b2bcbd96408d94407eff5c40dc583))
+* 🐛 removed unnecessarry rules and got rid of someerrors ([56b9a2e](https://github.com/jamashita/eslint-plugin-jama/commit/56b9a2e7b91c0911401fd66018f017eff32f47a9))
+* 🐛 url changed ([2569632](https://github.com/jamashita/eslint-plugin-jama/commit/256963236a418b0b949078b6bd3af76f0ce6c34a))
+* 🐛 url modified ([51b4dc4](https://github.com/jamashita/eslint-plugin-jama/commit/51b4dc49d5bb2dc5625ca23af82cf330a1361234))
+* 🐛 url modified ([7dc7960](https://github.com/jamashita/eslint-plugin-jama/commit/7dc7960ddf8c92bc7887405f1d53801ce5b90a72))
+
+
+### Features
+
+* 🎸 moromoro ([001307e](https://github.com/jamashita/eslint-plugin-jama/commit/001307e95488338200d9a99a9c2d20120c17be9f))
+* 🎸 new rules established ([bd2bbfc](https://github.com/jamashita/eslint-plugin-jama/commit/bd2bbfcdfc7133994d8a08803d601b5e022209af))
+* 🎸 plugin name ([94381f9](https://github.com/jamashita/eslint-plugin-jama/commit/94381f9c04545eb0274567a6d3524d68ed1a3108))
+* 🎸 recommended settings ([b519609](https://github.com/jamashita/eslint-plugin-jama/commit/b519609559064d1231ff729e6669764bbbe60ea1))
+* 🎸 renamed ([e587331](https://github.com/jamashita/eslint-plugin-jama/commit/e5873316b4bd4a6a71e8cdfca7eef477607edfd9))
+* 🎸 update ([324e03f](https://github.com/jamashita/eslint-plugin-jama/commit/324e03fe6d9ed48c1586766e9a2de29030e60cc3))
+* 🎸 update ([961d94d](https://github.com/jamashita/eslint-plugin-jama/commit/961d94d2b12a1766c3d51f8efd1ff00cd0fc5236))
+* 🎸 wip: plugin ([62e6263](https://github.com/jamashita/eslint-plugin-jama/commit/62e626368809c535d68b6e371bbbc315738619b0))
+
 # [1.35.0](https://github.com/jamashita/eslint-config/compare/v1.34.0...v1.35.0) (2021-03-26)
 
 
