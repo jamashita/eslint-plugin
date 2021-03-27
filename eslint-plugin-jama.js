@@ -7,7 +7,7 @@ const react = require('./configs/react');
 const ts = require('./configs/ts');
 
 module.exports = {
-  'configs': [
+  'configs': {
     es,
     im,
     jest,
@@ -15,7 +15,7 @@ module.exports = {
     node,
     react,
     ts
-  ],
+  },
   'env': {
     'node': true
   },

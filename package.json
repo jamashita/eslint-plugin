@@ -10,7 +10,7 @@
   "author": "jamashita <jamashita@arachnid.xyz>",
   "scripts": {
     "commit": "git cz",
-    "format": "eslint --config index.js 'examples/**/*'",
+    "format": "eslint --plugin jama 'examples/**/*'",
     "release": "semantic-release",
     "update": "yarn update:upgrade && yarn update:install",
     "update:install": "yarn install && yarn upgrade",
