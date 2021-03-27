@@ -1,10 +1,10 @@
 {
-  "name": "@jamashita/eslint-config-jama",
+  "name": "@jamashita/eslint-plugin-jama",
   "version": "1.35.0",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git@github.com:jamashita/eslint-config-jama.git"
+    "url": "git@github.com:jamashita/eslint-plugin-jama.git"
   },
   "license": "MIT",
   "author": "jamashita <jamashita@arachnid.xyz>",
