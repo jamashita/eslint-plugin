@@ -1,6 +1,6 @@
 {
   "branches": "release",
-  "repositoryUrl": "https://github.com/jamashita/eslint-config",
+  "repositoryUrl": "https://github.com/jamashita/eslint-plugin",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
