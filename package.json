@@ -1,16 +1,16 @@
 {
-  "name": "@jamashita/eslint-plugin",
+  "name": "@jamashita/eslint-plugin-jama",
   "version": "1.35.0",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git@github.com:jamashita/eslint-plugin.git"
+    "url": "git@github.com:jamashita/eslint-plugin-jama.git"
   },
   "license": "MIT",
   "author": "jamashita <jamashita@arachnid.xyz>",
   "scripts": {
     "commit": "git cz",
-    "format": "eslint --config index.js 'examples/**/*'",
+    "format": "eslint --plugin jama 'examples/**/*'",
     "release": "semantic-release",
     "update": "yarn update:upgrade && yarn update:install",
     "update:install": "yarn install && yarn upgrade",
