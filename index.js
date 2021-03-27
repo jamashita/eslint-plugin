@@ -1,12 +1,20 @@
+const es = require('./configs/es');
+const im = require('./configs/import');
+const jest = require('./configs/jest');
+const jsx = require('./configs/jsx');
+const node = require('./configs/node');
+const react = require('./configs/react');
+const ts = require('./configs/ts');
+
 module.exports = {
-  'extends': [
-    require.resolve('./configs/es'),
-    require.resolve('./configs/import'),
-    require.resolve('./configs/jest'),
-    require.resolve('./configs/jsx'),
-    require.resolve('./configs/node'),
-    require.resolve('./configs/react'),
-    require.resolve('./configs/ts')
+  'configs': [
+    es,
+    im,
+    jest,
+    jsx,
+    node,
+    react,
+    ts
   ],
   'env': {
     'node': true
