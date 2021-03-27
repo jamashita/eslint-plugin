@@ -7,12 +7,12 @@ ESLint Library bundle for us.
 
 ## Rules
 
-### `@jamashita/eslint-plugin`
+### `@jamashita/eslint-config-jama`
 
 #### Install
 
 ```text
-yarn add @jamashita/eslint-plugin \
+yarn add @jamashita/eslint-config-jama \
   eslint \
   typescript -D
 ```
@@ -22,7 +22,7 @@ yarn add @jamashita/eslint-plugin \
 ```json
 {
   "extends": [
-    "plugin:@jamashita/eslint-plugin"
+    "plugin:@jamashita/eslint-config-jama"
   ]
 }
 ```
