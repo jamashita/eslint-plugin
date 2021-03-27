@@ -21,6 +21,9 @@ module.exports = {
   },
   'overrides': [
     {
+      'ignorePatterns': [
+        '**/*.d.ts'
+      ],
       'files': [
         '**/*.ts',
         '**/*.tsx'
