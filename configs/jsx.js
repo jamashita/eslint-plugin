@@ -7,7 +7,8 @@ module.exports = {
     'sourceType': 'module'
   },
   'plugins': [
-    'jsx-a11y'
+    'jsx-a11y',
+    'jama'
   ],
   'env': {
     'browser': true,

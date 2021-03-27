@@ -7,6 +7,7 @@ module.exports = {
     'sourceType': 'module'
   },
   'plugins': [
+    'jama',
     'jest'
   ],
   'env': {

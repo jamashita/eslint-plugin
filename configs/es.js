@@ -6,6 +6,9 @@ module.exports = {
     'ecmaVersion': 2021,
     'sourceType': 'module'
   },
+  'plugins': [
+    'jama'
+  ],
   'env': {
     'es2020': true,
     'es2021': true,

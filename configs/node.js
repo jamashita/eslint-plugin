@@ -7,7 +7,8 @@ module.exports = {
     'sourceType': 'module'
   },
   'plugins': [
-    'node'
+    'node',
+    'jama'
   ],
   'env': {
     'es2020': true,

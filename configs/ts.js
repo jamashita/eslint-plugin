@@ -12,7 +12,8 @@ module.exports = {
     'tsconfigRootDir': '.'
   },
   'plugins': [
-    '@typescript-eslint'
+    '@typescript-eslint',
+    'jama'
   ],
   'env': {
     'es2020': true,

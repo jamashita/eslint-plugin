@@ -9,7 +9,8 @@ module.exports = {
     'sourceType': 'module'
   },
   'plugins': [
-    'import'
+    'import',
+    'jama'
   ],
   'env': {
     'browser': true,

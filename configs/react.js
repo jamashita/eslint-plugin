@@ -12,7 +12,8 @@ module.exports = {
   },
   'plugins': [
     'react',
-    'react-hooks'
+    'react-hooks',
+    'jama'
   ],
   'env': {
     'browser': true,
