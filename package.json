@@ -12,7 +12,6 @@
   "scripts": {
     "commit": "git cz",
     "release": "semantic-release",
-    "postinstall": "husky install",
     "update": "yarn update:upgrade && yarn update:install",
     "update:install": "yarn install && yarn upgrade",
     "update:upgrade": "ncu --packageManager yarn --upgrade"
