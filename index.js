@@ -5,6 +5,7 @@ const jsx = require('./configs/jsx');
 const node = require('./configs/node');
 const react = require('./configs/react');
 const ts = require('./configs/ts');
+const recommend = require('./configs/recommended');
 
 module.exports = {
   'configs': {
@@ -14,14 +15,7 @@ module.exports = {
     jsx,
     node,
     react,
-    ts
-  },
-  'env': {
-    'node': true
-  },
-  'globals': {
-    'window': true,
-    'document': true,
-    'NodeJS': false
+    ts,
+    recommend
   }
 };
