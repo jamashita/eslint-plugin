@@ -1,3 +1,28 @@
+# [1.37.0](https://github.com/jamashita/eslint-plugin/compare/v1.36.0...v1.37.0) (2021-03-29)
+
+
+### Bug Fixes
+
+* 🐛 add main section ([89a82a6](https://github.com/jamashita/eslint-plugin/commit/89a82a6a38dd4ced3a4c603ef4a9ebbe2ab0d005))
+* 🐛 coming ([13c4e1b](https://github.com/jamashita/eslint-plugin/commit/13c4e1bed0700876002dd65eafe898605f4c44c4))
+* 🐛 export path modified ([8534b4d](https://github.com/jamashita/eslint-plugin/commit/8534b4deeaeb6fd30ba13fb0ad2134e77928ce38))
+* 🐛 file name modified ([e9dec44](https://github.com/jamashita/eslint-plugin/commit/e9dec449a1dfd078402b70f4820cc27a1d10feb6))
+* 🐛 typo ([6b1b559](https://github.com/jamashita/eslint-plugin/commit/6b1b55914e4d46142d959e25bb2aa9b6574d66ce))
+* 🐛 tytpo ([5e739b3](https://github.com/jamashita/eslint-plugin/commit/5e739b31900fc4922de5fff4a38a55ee78484a4a))
+* 🐛 url adjusted ([ccf8cc2](https://github.com/jamashita/eslint-plugin/commit/ccf8cc2bd327ca4b346d1e86af0ed8253fd4e52e))
+
+
+### Features
+
+* 🎸 dev -> Dep ([1d58e0a](https://github.com/jamashita/eslint-plugin/commit/1d58e0a0044e5d5d66d119219a09eee2981abb47))
+* 🎸 new recomended option ([d601efa](https://github.com/jamashita/eslint-plugin/commit/d601efa4ab38009fb1be98d81aa05c337bdd411e))
+* 🎸 plugins name ([18d4286](https://github.com/jamashita/eslint-plugin/commit/18d428699e73cac6fc0939b65e5f7bf630bc4ddb))
+* 🎸 recommendec implememnted ([2f181ed](https://github.com/jamashita/eslint-plugin/commit/2f181edd0aceaa0063cb89f78cad48d20a16ee80))
+* 🎸 removed option ([ed58f31](https://github.com/jamashita/eslint-plugin/commit/ed58f318506ae4c2eeabb10e191ee0e6f72287f2))
+* 🎸 update ([4239792](https://github.com/jamashita/eslint-plugin/commit/4239792805d12f70ce705a1a7e131d6076552a80))
+* 🎸 update ([780b3e8](https://github.com/jamashita/eslint-plugin/commit/780b3e8be6de45616a10047d97777e8f8c8dcfeb))
+* 🎸 wip ([3ffe882](https://github.com/jamashita/eslint-plugin/commit/3ffe88280b58f5b32524e6e53de7061342c35526))
+
 # [1.36.0](https://github.com/jamashita/eslint-plugin-jama/compare/v1.35.0...v1.36.0) (2021-03-27)
 
 
