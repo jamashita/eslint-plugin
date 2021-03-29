@@ -1,3 +1,10 @@
+## [1.37.1](https://github.com/jamashita/eslint-plugin/compare/v1.37.0...v1.37.1) (2021-03-29)
+
+
+### Bug Fixes
+
+* 🐛 ignore -> excluded ([89475a4](https://github.com/jamashita/eslint-plugin/commit/89475a4ebeb0517e4959005e9e2931dc1bccff7b))
+
 # [1.37.0](https://github.com/jamashita/eslint-plugin/compare/v1.36.0...v1.37.0) (2021-03-29)
 
 
