@@ -10,7 +10,7 @@ const recommend = require('./configs/recommended');
 module.exports = {
   'configs': {
     es,
-    im,
+    import: im,
     jest,
     jsx,
     node,
