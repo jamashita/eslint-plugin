@@ -1,14 +1,6 @@
 'use strict';
 
 module.exports = {
-  'env': {
-    'browser': true,
-    'es2020': true,
-    'es2021': true,
-    'es6': true,
-    'jest': true,
-    'node': true
-  },
   'extends': [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
@@ -23,9 +15,6 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:jest/recommended'
   ],
-  'globals': {
-    'NodeJS': false
-  },
   'parser': '@typescript-eslint/parser',
   'parserOptions': {
     'ecmaFeatures': {
@@ -42,8 +31,17 @@ module.exports = {
     'react',
     'react-hooks',
     'jest',
-    '@typescript-eslint'
+    '@typescript-eslint',
+    'jama'
   ],
+  'env': {
+    'browser': true,
+    'es2020': true,
+    'es2021': true,
+    'es6': true,
+    'jest': true,
+    'node': true
+  },
   'settings': {
     'react': {
       'version': 'detect'
