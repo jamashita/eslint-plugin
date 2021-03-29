@@ -10,7 +10,7 @@ module.exports = {
   },
   'plugins': [
     'jest',
-    'jama'
+    '@jamashita'
   ],
   'env': {
     'es2020': true,
