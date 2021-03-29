@@ -24,13 +24,11 @@ module.exports = {
   },
   'overrides': [
     {
-      'ignorePatterns': [
-        '**/*.d.ts'
-      ],
       'files': [
         '**/*.ts',
         '**/*.tsx'
       ],
+      'excludedFiles': '*.d.ts',
       'rules': {
         /* @typescript-eslint */
         // Supported Rules
