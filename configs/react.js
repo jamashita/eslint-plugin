@@ -25,7 +25,7 @@ module.exports = {
   },
   'settings': {
     'react': {
-      'version': 'detect'
+      'version': 17
     }
   },
   'rules': {
