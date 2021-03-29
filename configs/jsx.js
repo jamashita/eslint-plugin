@@ -10,7 +10,7 @@ module.exports = {
   },
   'plugins': [
     'jsx-a11y',
-    'jama'
+    '@jamashita'
   ],
   'env': {
     'browser': true,

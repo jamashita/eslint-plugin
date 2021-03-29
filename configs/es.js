@@ -9,7 +9,7 @@ module.exports = {
     'sourceType': 'module'
   },
   'plugins': [
-    'jama'
+    '@jamashita'
   ],
   'env': {
     'es2020': true,

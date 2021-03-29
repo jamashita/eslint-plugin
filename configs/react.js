@@ -15,7 +15,7 @@ module.exports = {
   'plugins': [
     'react',
     'react-hooks',
-    'jama'
+    '@jamashita'
   ],
   'env': {
     'browser': true,

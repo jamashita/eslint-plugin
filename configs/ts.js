@@ -15,7 +15,7 @@ module.exports = {
   },
   'plugins': [
     '@typescript-eslint',
-    'jama'
+    '@jamashita'
   ],
   'env': {
     'es2020': true,

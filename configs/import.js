@@ -12,7 +12,7 @@ module.exports = {
   },
   'plugins': [
     'import',
-    'jama'
+    '@jamashita'
   ],
   'env': {
     'browser': true,
