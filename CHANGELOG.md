@@ -1,3 +1,16 @@
+# [1.38.0](https://github.com/jamashita/eslint-plugin/compare/v1.37.1...v1.38.0) (2021-03-29)
+
+
+### Bug Fixes
+
+* 🐛 breaking ([2d6a584](https://github.com/jamashita/eslint-plugin/commit/2d6a5843fa30b6059b173f57317dbefbfe9d351c))
+* 🐛 remove here ([f682f79](https://github.com/jamashita/eslint-plugin/commit/f682f7915f1aff9bc4e527b8c69304ffb6cc93e5))
+
+
+### Features
+
+* 🎸 update ([c4896c1](https://github.com/jamashita/eslint-plugin/commit/c4896c17b9c63ef5003a8e9f82b51a607d6731de))
+
 ## [1.37.1](https://github.com/jamashita/eslint-plugin/compare/v1.37.0...v1.37.1) (2021-03-29)
 
 
