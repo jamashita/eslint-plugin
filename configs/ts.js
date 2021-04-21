@@ -291,7 +291,7 @@ module.exports = {
         '@typescript-eslint/comma-dangle': 'error',
         '@typescript-eslint/comma-spacing': 'error',
         '@typescript-eslint/default-param-last': 'off',
-        '@typescript-eslint/dot-notation': 'error',
+        '@typescript-eslint/dot-notation': 'off',
         '@typescript-eslint/func-call-spacing': [
           'error',
           'never'
