@@ -1,3 +1,29 @@
+# [1.42.0](https://github.com/jamashita/eslint-plugin/compare/v1.41.0...v1.42.0) (2021-04-26)
+
+
+### Features
+
+* 🎸 update ([9ddf205](https://github.com/jamashita/eslint-plugin/commit/9ddf2059d21935c1810e9ac562248d7c6e504bbe))
+
+# [1.41.0](https://github.com/jamashita/eslint-plugin/compare/v1.40.0...v1.41.0) (2021-04-21)
+
+
+### Bug Fixes
+
+* 🐛 update ([8ff6d90](https://github.com/jamashita/eslint-plugin/commit/8ff6d90ef2762fb5e1c517861f2e3b52e4a0a681))
+
+
+### Features
+
+* 🎸 rule conflicted with ts4.2 dot-notation ([1f86b29](https://github.com/jamashita/eslint-plugin/commit/1f86b29b1c694b54c3e8d15a6a3cf4e75f70d9ac))
+
+# [1.40.0](https://github.com/jamashita/eslint-plugin/compare/v1.39.0...v1.40.0) (2021-04-10)
+
+
+### Features
+
+* 🎸 update ([22067dd](https://github.com/jamashita/eslint-plugin/commit/22067ddeb45b827330f4e4e815dce18bb3b855cd))
+
 # [1.39.0](https://github.com/jamashita/eslint-plugin/compare/v1.38.3...v1.39.0) (2021-04-07)
 
 
