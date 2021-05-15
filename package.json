@@ -11,6 +11,7 @@
   "main": "index.js",
   "scripts": {
     "commit": "git cz",
+    "format": "eslint 'examples/**/*.{ts,tsx}'",
     "release": "semantic-release",
     "update": "yarn update:upgrade && yarn update:install",
     "update:install": "yarn install && yarn upgrade && yarn audit fix --force",
