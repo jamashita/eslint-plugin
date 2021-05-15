@@ -1,3 +1,10 @@
+## [1.43.1](https://github.com/jamashita/eslint-plugin/compare/v1.43.0...v1.43.1) (2021-05-15)
+
+
+### Bug Fixes
+
+* 🐛 unknown plugin error ([5f8b2e9](https://github.com/jamashita/eslint-plugin/commit/5f8b2e93a4b5ae12cc12cba35b4f421298641b23))
+
 # [1.43.0](https://github.com/jamashita/eslint-plugin/compare/v1.42.0...v1.43.0) (2021-05-15)
 
 
