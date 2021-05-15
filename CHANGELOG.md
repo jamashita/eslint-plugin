@@ -1,3 +1,16 @@
+# [1.43.0](https://github.com/jamashita/eslint-plugin/compare/v1.42.0...v1.43.0) (2021-05-15)
+
+
+### Bug Fixes
+
+* 🐛 husky option ([11ed6a4](https://github.com/jamashita/eslint-plugin/commit/11ed6a41f9cfb1771d750bc682faa192dece3d36))
+* 🐛 is-ci package installed ([86fec28](https://github.com/jamashita/eslint-plugin/commit/86fec28fd47f631655e730cd66a181da25fbc90a))
+
+
+### Features
+
+* 🎸 import updated ([1708963](https://github.com/jamashita/eslint-plugin/commit/170896322e3c901ebebd98f319da402464e6510b))
+
 # [1.42.0](https://github.com/jamashita/eslint-plugin/compare/v1.41.0...v1.42.0) (2021-04-26)
 
 
