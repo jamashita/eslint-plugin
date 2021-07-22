@@ -23,8 +23,8 @@ export const ts = {
   'overrides': [
     {
       'files': [
-        '**/*.ts',
-        '**/*.tsx'
+        '*.ts',
+        '*.tsx'
       ],
       'excludedFiles': '*.d.ts',
       'rules': {
