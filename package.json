@@ -8,7 +8,8 @@
   },
   "license": "MIT",
   "author": "jamashita <jamashita@arachnid.xyz>",
-  "main": "index.js",
+  "type": "module",
+  "main": "./index.js",
   "scripts": {
     "commit": "git cz",
     "format": "eslint 'examples/**/*.{ts,tsx}'",
