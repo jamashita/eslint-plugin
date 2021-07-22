@@ -23,7 +23,7 @@ module.exports = {
   'rules': {
     /* import */
     // Static analysis
-    'import/no-unresolved': 'error',
+    'import/no-unresolved': 'off',
     'import/named': 'off',
     'import/default': 'error',
     'import/namespace': 'error',
