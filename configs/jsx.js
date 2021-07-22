@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = {
+export const jsx = {
   'extends': [
     'plugin:jsx-a11y/recommended'
   ],

@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = {
+export const ts = {
   'extends': [
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/eslint-recommended',

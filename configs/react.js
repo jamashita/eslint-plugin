@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = {
+export const react = {
   'extends': [
     'plugin:react/recommended',
     'plugin:react-hooks/recommended'
