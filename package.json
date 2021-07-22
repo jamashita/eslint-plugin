@@ -8,7 +8,6 @@
   },
   "license": "MIT",
   "author": "jamashita <jamashita@arachnid.xyz>",
-  "type": "module",
   "main": "./index.js",
   "scripts": {
     "commit": "git cz",
