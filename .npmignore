@@ -7,6 +7,6 @@ examples/
 .eslintrc
 .lintstagedrc.json
 .releaserc.json
-commitlint.config.cjs
+commitlint.config.js
 tsconfig.json
 *.log
