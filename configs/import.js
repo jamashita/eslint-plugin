@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = {
+export const im = {
   'extends': [
     'plugin:import/errors',
     'plugin:import/warnings',
@@ -20,10 +18,23 @@ module.exports = {
     'es2021': true,
     'es6': true
   },
+  'settings': {
+    'import/parsers': {
+      '@typescript-eslint/parser': [
+        '.ts',
+        '.tsx'
+      ]
+    },
+    'import/resolver': {
+      'typescript': {
+        'alwaysTryTypes': true
+      }
+    }
+  },
   'rules': {
     /* import */
     // Static analysis
-    'import/no-unresolved': 'off',
+    'import/no-unresolved': 'error',
     'import/named': 'error',
     'import/default': 'error',
     'import/namespace': 'error',
@@ -36,6 +47,7 @@ module.exports = {
     'import/no-cycle': 'off',
     'import/no-useless-path-segments': 'error',
     'import/no-relative-parent-imports': 'off',
+    'import/no-relative-packages': 'error',
     // Helpful warnings
     'import/export': 'error',
     'import/no-named-as-default': 'error',
@@ -49,6 +61,7 @@ module.exports = {
     'import/no-commonjs': 'error',
     'import/no-amd': 'error',
     'import/no-nodejs-modules': 'off',
+    'import/no-import-module-exports': 'error',
     // 'import/no-import-module-exports': 'error',
     // Style guide
     'import/first': 'error',
