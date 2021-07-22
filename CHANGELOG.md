@@ -1,3 +1,10 @@
+# [1.48.0](https://github.com/jamashita/eslint-plugin/compare/v1.47.0...v1.48.0) (2021-07-22)
+
+
+### Features
+
+* 🎸 unresolved remvoed because of the extsions ([6eaf691](https://github.com/jamashita/eslint-plugin/commit/6eaf691c2d1daa16daeb2f9c395ad9bd5214477c))
+
 # [1.47.0](https://github.com/jamashita/eslint-plugin/compare/v1.46.0...v1.47.0) (2021-07-22)
 
 
