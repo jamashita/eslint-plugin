@@ -37,7 +37,7 @@ module.exports = {
     /* import */
     // Static analysis
     'import/no-unresolved': 'error',
-    'import/named': 'error',
+    'import/named': 'off',
     'import/default': 'error',
     'import/namespace': 'error',
     'import/no-restricted-paths': 'off',
