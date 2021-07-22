@@ -1,4 +1,6 @@
-export const recommended = {
+'use strict';
+
+module.exports = {
   'plugins': [
     '@jamashita'
   ]

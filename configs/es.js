@@ -1,4 +1,6 @@
-export const es = {
+'use strict';
+
+module.exports = {
   'extends': [
     'eslint:recommended'
   ],

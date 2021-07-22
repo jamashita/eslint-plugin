@@ -1,4 +1,6 @@
-export const jest = {
+'use strict';
+
+module.exports = {
   'extends': [
     'plugin:jest/recommended'
   ],

@@ -1,4 +1,6 @@
-export const node = {
+'use strict';
+
+module.exports = {
   'extends': [
     'plugin:node/recommended'
   ],

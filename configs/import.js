@@ -1,4 +1,6 @@
-export const im = {
+'use strict';
+
+module.exports = {
   'extends': [
     'plugin:import/errors',
     'plugin:import/warnings',
