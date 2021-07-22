@@ -20,19 +20,6 @@ module.exports = {
     'es2021': true,
     'es6': true
   },
-  'settings': {
-    'import/parsers': {
-      '@typescript-eslint/parser': [
-        '.ts',
-        '.tsx'
-      ]
-    },
-    'import/resolver': {
-      'typescript': {
-        'alwaysTryTypes': true
-      }
-    }
-  },
   'rules': {
     /* import */
     // Static analysis
