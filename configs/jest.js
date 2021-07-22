@@ -49,6 +49,12 @@ module.exports = {
             ]
           }
         ],
+        'jest/max-nested-describe': [
+          'error',
+          {
+            'max': 3
+          }
+        ],
         'jest/no-alias-methods': 'error',
         'jest/no-commented-out-tests': 'error',
         'jest/no-conditional-expect': 'off',
