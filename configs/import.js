@@ -24,7 +24,7 @@ module.exports = {
     /* import */
     // Static analysis
     'import/no-unresolved': 'off',
-    'import/named': 'error',
+    'import/named': 'off',
     'import/default': 'error',
     'import/namespace': 'error',
     'import/no-restricted-paths': 'off',
@@ -36,6 +36,7 @@ module.exports = {
     'import/no-cycle': 'off',
     'import/no-useless-path-segments': 'error',
     'import/no-relative-parent-imports': 'off',
+    'import/no-relative-packages': 'error',
     // Helpful warnings
     'import/export': 'error',
     'import/no-named-as-default': 'error',
@@ -49,6 +50,7 @@ module.exports = {
     'import/no-commonjs': 'error',
     'import/no-amd': 'error',
     'import/no-nodejs-modules': 'off',
+    'import/no-import-module-exports': 'error',
     // 'import/no-import-module-exports': 'error',
     // Style guide
     'import/first': 'error',

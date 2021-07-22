@@ -1,3 +1,49 @@
+# [1.48.0](https://github.com/jamashita/eslint-plugin/compare/v1.47.0...v1.48.0) (2021-07-22)
+
+
+### Features
+
+* 🎸 unresolved remvoed because of the extsions ([6eaf691](https://github.com/jamashita/eslint-plugin/commit/6eaf691c2d1daa16daeb2f9c395ad9bd5214477c))
+
+# [1.47.0](https://github.com/jamashita/eslint-plugin/compare/v1.46.0...v1.47.0) (2021-07-22)
+
+
+### Bug Fixes
+
+* 🐛 abolished import/named ([19f9b56](https://github.com/jamashita/eslint-plugin/commit/19f9b5688052cfbde89f1814840dd43ea9af4bb6))
+* 🐛 cjs -> js ([944df2b](https://github.com/jamashita/eslint-plugin/commit/944df2b73ce5de53f8c2aa69cf8f5dd65f1a6598))
+* 🐛 extension upddate ([0ec1f08](https://github.com/jamashita/eslint-plugin/commit/0ec1f08541c16720829a0c6b39c0fde031084858))
+* 🐛 js -> cjs ([be8f30b](https://github.com/jamashita/eslint-plugin/commit/be8f30b07c18f3fcb7c7b422a3e9872295d30395))
+* 🐛 remove eSM ([87826d1](https://github.com/jamashita/eslint-plugin/commit/87826d18a57b519a308a02476c2e99a1349e2b96))
+* 🐛 removed ts optiono ([cf84b5e](https://github.com/jamashita/eslint-plugin/commit/cf84b5eee73d6c2004337a3ffbdbf8d36951298d))
+
+
+### Features
+
+* 🎸 abanadon ESM ([5d5b456](https://github.com/jamashita/eslint-plugin/commit/5d5b456be6873efa77400ae9deba5f0dffbcef17))
+* 🎸 abandon ESM ([4a68796](https://github.com/jamashita/eslint-plugin/commit/4a68796e708d6ade8dbfd147c2fddd4b1d02664c))
+* 🎸 ESM adoptiono ([a4210bf](https://github.com/jamashita/eslint-plugin/commit/a4210bfbd9bb2517d07bbfb2760d197afe0183a2))
+* 🎸 jest" new option ([ac1972e](https://github.com/jamashita/eslint-plugin/commit/ac1972ea675af6e5a172afaa63a0e2808d9c44b8))
+* 🎸 new rules and ts resolvers ([4d881eb](https://github.com/jamashita/eslint-plugin/commit/4d881eb21e115e9685f699f2877550aa3f51ef73))
+* 🎸 recommended and default ([0449ace](https://github.com/jamashita/eslint-plugin/commit/0449ace746554b8bd9967358694a888e4697a0d5))
+* 🎸 removed ts resolver ([3fd05c0](https://github.com/jamashita/eslint-plugin/commit/3fd05c0b6d1f6f0a6c5ce128ea6e050874c2ded7))
+* 🎸 update ([6a65404](https://github.com/jamashita/eslint-plugin/commit/6a654043fe6f213636e5090a167db3feb723b590))
+* 🎸 update ([d8d3422](https://github.com/jamashita/eslint-plugin/commit/d8d34226a268b97f6cad5350940097891914160a))
+
+# [1.46.0](https://github.com/jamashita/eslint-plugin/compare/v1.45.0...v1.46.0) (2021-07-17)
+
+
+### Features
+
+* 🎸 update ([2319d00](https://github.com/jamashita/eslint-plugin/commit/2319d00b65a40d95297f71c9ac206e6079b2c375))
+
+# [1.45.0](https://github.com/jamashita/eslint-plugin/compare/v1.44.0...v1.45.0) (2021-06-11)
+
+
+### Features
+
+* 🎸 update ([38cbcef](https://github.com/jamashita/eslint-plugin/commit/38cbcefcc7cedc95b438fa4d898d12ec5e5e4ccd))
+
 # [1.44.0](https://github.com/jamashita/eslint-plugin/compare/v1.43.1...v1.44.0) (2021-06-02)
 
 
