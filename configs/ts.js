@@ -99,9 +99,11 @@ module.exports = {
           {
             'classes': [
               'instance-field',
+              'abstract-field',
               'static-field',
               'static-method',
               'constructor',
+              'abstract-method',
               'instance-method'
             ]
           }
