@@ -1,3 +1,10 @@
+# [1.49.0](https://github.com/jamashita/eslint-plugin/compare/v1.48.0...v1.49.0) (2021-08-04)
+
+
+### Features
+
+* 🎸 update ([10859f0](https://github.com/jamashita/eslint-plugin/commit/10859f01517990902fb8c31e381d41a90bb2d15e))
+
 # [1.48.0](https://github.com/jamashita/eslint-plugin/compare/v1.47.0...v1.48.0) (2021-07-22)
 
 
