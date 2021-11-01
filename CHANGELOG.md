@@ -1,3 +1,25 @@
+# [1.51.0](https://github.com/jamashita/eslint-plugin/compare/v1.50.0...v1.51.0) (2021-11-01)
+
+
+### Features
+
+* 🎸 new rules adopted ([1364568](https://github.com/jamashita/eslint-plugin/commit/13645686a293d31312d86d66a5a9fff6d0d91d67))
+* 🎸 update ([63d2fe3](https://github.com/jamashita/eslint-plugin/commit/63d2fe3db620846830d973b5101af25a9329bd92))
+
+# [1.50.0](https://github.com/jamashita/eslint-plugin/compare/v1.49.0...v1.50.0) (2021-09-03)
+
+
+### Features
+
+* 🎸 update ([f621871](https://github.com/jamashita/eslint-plugin/commit/f62187199149af4c3e7659ddb80f85d5a5f3a6fb))
+
+# [1.49.0](https://github.com/jamashita/eslint-plugin/compare/v1.48.0...v1.49.0) (2021-08-04)
+
+
+### Features
+
+* 🎸 update ([10859f0](https://github.com/jamashita/eslint-plugin/commit/10859f01517990902fb8c31e381d41a90bb2d15e))
+
 # [1.48.0](https://github.com/jamashita/eslint-plugin/compare/v1.47.0...v1.48.0) (2021-07-22)
 
 
