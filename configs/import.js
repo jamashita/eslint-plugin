@@ -45,6 +45,7 @@ module.exports = {
     'import/no-extraneous-dependencies': 'error',
     'import/no-mutable-exports': 'error',
     'import/no-unused-modules': 'error',
+    'import/no-unused-modules': 'error',
     // Module systems
     'import/unambiguous': 'error',
     'import/no-commonjs': 'error',

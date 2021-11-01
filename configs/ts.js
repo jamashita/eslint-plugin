@@ -60,6 +60,7 @@ module.exports = {
           }
         ],
         '@typescript-eslint/consistent-type-definitions': 'off',
+        '@typescript-eslint/consistent-type-exports': 'off',
         '@typescript-eslint/consistent-type-imports': [
           'error',
           {
@@ -181,6 +182,7 @@ module.exports = {
         '@typescript-eslint/no-implied-eval': 'error',
         '@typescript-eslint/no-inferrable-types': 'off',
         '@typescript-eslint/no-invalid-void-type': 'off',
+        '@typescript-eslint/no-meaningless-void-operator': 'error',
         '@typescript-eslint/no-misused-new': 'error',
         '@typescript-eslint/no-misused-promises': [
           'error',
@@ -196,10 +198,12 @@ module.exports = {
             'allowDefinitionFiles': true
           }
         ],
+        '@typescript-eeslint/no-non-null-asserted-nullish-coalescing': 'error',
         '@typescript-eslint/no-non-null-asserted-optional-chain': 'error',
         '@typescript-eslint/no-non-null-assertion': 'error',
         '@typescript-eslint/no-parameter-properties': 'error',
         '@typescript-eslint/no-require-imports': 'error',
+        '@typescript-eslint/no-restricted-imports': 'error',
         '@typescript-eslint/no-this-alias': [
           'error',
           {
@@ -221,6 +225,7 @@ module.exports = {
         '@typescript-eslint/no-unsafe-return': 'error',
         '@typescript-eslint/no-var-requires': 'error',
         '@typescript-eslint/non-nullable-type-assertion-style': 'error',
+        '@typescript-eslint/padding-line-between-statements': 'error',
         '@typescript-eslint/prefer-as-const': 'error',
         '@typescript-eslint/prefer-enum-initializers': 'error',
         '@typescript-eslint/prefer-for-of': 'off',
