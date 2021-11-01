@@ -73,6 +73,7 @@ module.exports = {
       }
     ],
     'no-useless-backreference': 'error',
+    'no-unused-private-class-members': 'error',
     'require-atomic-updates': 'error',
     'use-isnan': 'error',
     'valid-typeof': 'error',
@@ -271,7 +272,7 @@ module.exports = {
     'operator-assignment': 'error',
     'operator-linebreak': 'error',
     'padded-blocks': 'off',
-    'padding-line-between-statements': 'error',
+    'padding-line-between-statements': 'off',
     'prefer-exponentiation-operator': 'error',
     'prefer-object-spread': 'error',
     'quote-props': [
@@ -316,7 +317,7 @@ module.exports = {
     'no-duplicate-imports': 'off',
     'no-new-symbol': 'error',
     'no-restricted-exports': 'error',
-    'no-restricted-imports': 'error',
+    'no-restricted-imports': 'off',
     'no-this-before-super': 'error',
     'no-useless-computed-key': 'error',
     'no-useless-constructor': 'off',
