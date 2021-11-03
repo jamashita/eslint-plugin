@@ -1,3 +1,10 @@
+## [1.51.1](https://github.com/jamashita/eslint-plugin/compare/v1.51.0...v1.51.1) (2021-11-03)
+
+
+### Bug Fixes
+
+* 🐛 some rules has been renamed ([8d3bf7d](https://github.com/jamashita/eslint-plugin/commit/8d3bf7d672c17ab403570655e3cf1ebc8942cd8d))
+
 # [1.51.0](https://github.com/jamashita/eslint-plugin/compare/v1.50.0...v1.51.0) (2021-11-01)
 
 
