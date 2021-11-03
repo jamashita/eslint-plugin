@@ -40,15 +40,6 @@ module.exports = {
           }
         ],
         'jest/expect-expect': 'error',
-        'jest/lowercase-name': [
-          'error',
-          {
-            'ignore': [
-              'describe',
-              'it'
-            ]
-          }
-        ],
         'jest/max-nested-describe': [
           'error',
           {
@@ -80,6 +71,16 @@ module.exports = {
         'jest/prefer-expect-assertions': 'error',
         'jest/prefer-expect-resolves': 'error',
         'jest/prefer-hooks-on-top': 'error',
+        'jest/prefer-lowercase-title': [
+          'error',
+          {
+            'ignore': [
+              'describe',
+              'it',
+              'test'
+            ]
+          }
+        ],
         'jest/prefer-spy-on': 'error',
         'jest/prefer-strict-equal': 'error',
         'jest/prefer-to-be': 'error',
@@ -89,7 +90,7 @@ module.exports = {
         'jest/require-hook': 'error',
         'jest/require-to-throw-message': 'off',
         'jest/require-top-level-describe': 'error',
-        'jest/valid-describe': 'error',
+        'jest/valid-describe-callback': 'error',
         'jest/valid-expect': 'error',
         'jest/valid-expect-in-promise': 'error',
         'jest/valid-title': 'error',
