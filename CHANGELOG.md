@@ -1,3 +1,10 @@
+## [1.52.2](https://github.com/jamashita/eslint-plugin/compare/v1.52.1...v1.52.2) (2021-11-08)
+
+
+### Bug Fixes
+
+* 🐛 removed jest ([528780b](https://github.com/jamashita/eslint-plugin/commit/528780b1287de5516b516879b71cd432edfef3ee))
+
 ## [1.52.1](https://github.com/jamashita/eslint-plugin/compare/v1.52.0...v1.52.1) (2021-11-08)
 
 
