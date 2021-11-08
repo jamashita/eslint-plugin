@@ -1,3 +1,15 @@
+# [1.52.0](https://github.com/jamashita/eslint-plugin/compare/v1.51.1...v1.52.0) (2021-11-08)
+
+
+### Bug Fixes
+
+* 🐛 removed duplicate option ([d9b6f71](https://github.com/jamashita/eslint-plugin/commit/d9b6f71ce3f365187bcc6bc90ef892b281025f64))
+
+
+### Features
+
+* 🎸 packages update ([eefb863](https://github.com/jamashita/eslint-plugin/commit/eefb86375ff18e1efd495cd1d0923fa7a962bccf))
+
 ## [1.51.1](https://github.com/jamashita/eslint-plugin/compare/v1.51.0...v1.51.1) (2021-11-03)
 
 
