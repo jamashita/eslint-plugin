@@ -27,6 +27,16 @@ yarn add @jamashita/eslint-plugin \
 }
 ```
 
+or
+
+```json
+{
+  "extends": [
+    "plugin:@jamashita/recommended"
+  ]
+}
+```
+
 ## License
 
 [MIT](LICENSE)
