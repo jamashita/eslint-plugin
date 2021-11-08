@@ -1,6 +1,6 @@
 {
   "name": "@jamashita/eslint-plugin",
-  "version": "1.52.0",
+  "version": "1.52.1",
   "private": false,
   "repository": {
     "type": "git",
@@ -44,7 +44,6 @@
     "git-cz": "4.8.0",
     "husky": "^7.0.4",
     "is-ci": "3.0.1",
-    "jest": "27.3.1",
     "lint-staged": "11.2.6",
     "npm-check-updates": "12.0.0",
     "react": "17.0.2",

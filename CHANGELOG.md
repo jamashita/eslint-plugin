@@ -1,3 +1,10 @@
+## [1.52.1](https://github.com/jamashita/eslint-plugin/compare/v1.52.0...v1.52.1) (2021-11-08)
+
+
+### Bug Fixes
+
+* 🐛 jest config file removed ([274c0f7](https://github.com/jamashita/eslint-plugin/commit/274c0f7aa3882e19a567a4351a7abbfc0ad28742))
+
 # [1.52.0](https://github.com/jamashita/eslint-plugin/compare/v1.51.1...v1.52.0) (2021-11-08)
 
 
