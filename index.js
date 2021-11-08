@@ -1,6 +1,5 @@
 const es = require('./configs/es');
 const im = require('./configs/import');
-const jest = require('./configs/jest');
 const jsx = require('./configs/jsx');
 const node = require('./configs/node');
 const react = require('./configs/react');
@@ -11,7 +10,6 @@ module.exports = {
   'configs': {
     es,
     import: im,
-    jest,
     jsx,
     node,
     react,
