@@ -95,20 +95,7 @@ module.exports = {
             }
           }
         ],
-        '@typescript-eslint/member-ordering': [
-          'error',
-          {
-            'classes': [
-              'instance-field',
-              'abstract-field',
-              'static-field',
-              'static-method',
-              'constructor',
-              'abstract-method',
-              'instance-method'
-            ]
-          }
-        ],
+        '@typescript-eslint/member-ordering': 'off',
         '@typescript-eslint/method-signature-style': [
           'error',
           'method'
