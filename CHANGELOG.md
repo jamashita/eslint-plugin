@@ -1,3 +1,10 @@
+# [1.53.0](https://github.com/jamashita/eslint-plugin/compare/v1.52.2...v1.53.0) (2021-11-09)
+
+
+### Features
+
+* 🎸 turn off member-ordering ([18ba379](https://github.com/jamashita/eslint-plugin/commit/18ba3793c5f5cf08bd3676fdbb28f9a69a49f85d))
+
 ## [1.52.2](https://github.com/jamashita/eslint-plugin/compare/v1.52.1...v1.52.2) (2021-11-08)
 
 
