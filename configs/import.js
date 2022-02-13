@@ -51,7 +51,6 @@ module.exports = {
     'import/no-amd': 'error',
     'import/no-nodejs-modules': 'off',
     'import/no-import-module-exports': 'error',
-    // 'import/no-import-module-exports': 'error',
     // Style guide
     'import/first': 'error',
     'import/exports-last': 'off',
