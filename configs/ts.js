@@ -165,8 +165,6 @@ module.exports = {
         ],
         '@typescript-eslint/no-floating-promises': 'error',
         '@typescript-eslint/no-for-in-array': 'error',
-        '@typescript-eslint/no-implicit-any-catch': 'error',
-        '@typescript-eslint/no-implied-eval': 'error',
         '@typescript-eslint/no-inferrable-types': 'off',
         '@typescript-eslint/no-invalid-void-type': 'off',
         '@typescript-eslint/no-meaningless-void-operator': 'error',
@@ -190,14 +188,12 @@ module.exports = {
         '@typescript-eslint/no-non-null-assertion': 'error',
         '@typescript-eslint/no-parameter-properties': 'error',
         '@typescript-eslint/no-require-imports': 'error',
-        '@typescript-eslint/no-restricted-imports': 'error',
         '@typescript-eslint/no-this-alias': [
           'error',
           {
             'allowDestructuring': true
           }
         ],
-        '@typescript-eslint/no-throw-literal': 'error',
         '@typescript-eslint/no-type-alias': 'off',
         '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
         '@typescript-eslint/no-unnecessary-condition': 'off',
@@ -212,7 +208,6 @@ module.exports = {
         '@typescript-eslint/no-unsafe-return': 'error',
         '@typescript-eslint/no-var-requires': 'error',
         '@typescript-eslint/non-nullable-type-assertion-style': 'error',
-        '@typescript-eslint/padding-line-between-statements': 'error',
         '@typescript-eslint/prefer-as-const': 'error',
         '@typescript-eslint/prefer-enum-initializers': 'error',
         '@typescript-eslint/prefer-for-of': 'off',
@@ -226,6 +221,7 @@ module.exports = {
         '@typescript-eslint/prefer-readonly-parameter-types': 'off',
         '@typescript-eslint/prefer-reduce-type-parameter': 'off',
         '@typescript-eslint/prefer-regexp-exec': 'error',
+        '@typescript-eslint/prefer-return-this-type': 'error',
         '@typescript-eslint/prefer-string-starts-ends-with': 'error',
         '@typescript-eslint/prefer-ts-expect-error': 'error',
         '@typescript-eslint/promise-function-async': 'off',
@@ -319,6 +315,7 @@ module.exports = {
           'all'
         ],
         '@typescript-eslint/no-extra-semi': 'error',
+        '@typescript-eslint/no-implied-eval': 'error',
         '@typescript-eslint/no-invalid-this': 'error',
         '@typescript-eslint/no-loop-func': 'off',
         '@typescript-eslint/no-loss-of-precision': 'error',
@@ -329,7 +326,9 @@ module.exports = {
             'ignoreDeclarationMerge': true
           }
         ],
+        '@typescript-eslint/no-restricted-imports': 'error',
         '@typescript-eslint/no-shadow': 'error',
+        '@typescript-eslint/no-throw-literal': 'error',
         '@typescript-eslint/no-unused-expressions': 'error',
         '@typescript-eslint/no-unused-vars': [
           'error',
@@ -345,12 +344,7 @@ module.exports = {
           'error',
           'always'
         ],
-        'object-property-newline': [
-          'error',
-          {
-            'allowAllPropertiesOnSameLine': false
-          }
-        ],
+        '@typescript-eslint/padding-line-between-statements': 'error',
         '@typescript-eslint/quotes': [
           'error',
           'single'
