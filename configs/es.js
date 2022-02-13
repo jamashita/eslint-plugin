@@ -274,6 +274,7 @@ module.exports = {
     'padded-blocks': 'off',
     'padding-line-between-statements': 'off',
     'prefer-exponentiation-operator': 'error',
+    'prefer-object-has-own': 'error',
     'prefer-object-spread': 'error',
     'quote-props': [
       'error',
