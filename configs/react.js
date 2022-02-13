@@ -47,9 +47,12 @@ module.exports = {
         'unnamedComponents': 'arrow-function'
       }
     ],
+    'react/hook-use-state': 'error',
+    'react/iframe-missing-sandbox': 'error',
     'react/no-access-state-in-setstate': 'error',
     'react/no-adjacent-inline-elements': 'error',
     'react/no-array-index-key': 'error',
+    'react-no-arrow-function-lifecycle': 'error',
     'react/no-children-prop': 'error',
     'react/no-danger': 'error',
     'react/no-danger-with-children': 'error',
@@ -58,6 +61,7 @@ module.exports = {
     'react/no-did-update-set-state': 'error',
     'react/no-direct-mutation-state': 'error',
     'react/no-find-dom-node': 'error',
+    'react/no-invalid-html-attribute': 'error',
     'react/no-is-mounted': 'error',
     'react/no-multi-comp': 'error',
     'react/no-namespace': 'error',
@@ -70,6 +74,8 @@ module.exports = {
     'react/no-unescaped-entities': 'error',
     'react/no-unknown-property': 'error',
     'react/no-unsafe': 'error',
+    'react/no-unstable-nested-components': 'errors',
+    'react/no-unused-class-component-methods': 'error',
     'react/no-unused-prop-types': 'error',
     'react/no-unused-state': 'error',
     'react/no-will-update-set-state': 'error',
@@ -77,6 +83,7 @@ module.exports = {
       'error',
       'always'
     ],
+    'react/prefer-exact-props': 'error',
     'react/prefer-read-only-props': 'error',
     'react/prefer-stateless-function': 'error',
     'react/prop-types': 'off',
@@ -110,6 +117,7 @@ module.exports = {
     'react/static-property-placement': 'off',
     'react/style-prop-object': 'error',
     'react/void-dom-elements-no-children': 'error',
+    // JSX-specific rules
     'react/jsx-boolean-value': [
       'error',
       'always'
@@ -197,7 +205,7 @@ module.exports = {
       }
     ],
     'react/jsx-no-comment-textnodes': 'error',
-    // 'react/jsx-no-constructed-context-values': 'error',
+    'react/jsx-no-constructed-context-values': 'error',
     'react/jsx-no-duplicate-props': 'error',
     'react/jsx-no-literals': 'off',
     'react/jsx-no-script-url': 'error',
@@ -220,6 +228,10 @@ module.exports = {
     'react/jsx-props-no-spreading': 'error',
     'react/jsx-sort-default-props': 'off',
     'react/jsx-sort-props': 'off',
+    'react/jsx-space-before-closing': [
+      'error',
+      'always'
+    ],
     'react/jsx-tag-spacing': [
       'error',
       {
