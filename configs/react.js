@@ -47,8 +47,8 @@ module.exports = {
         'unnamedComponents': 'arrow-function'
       }
     ],
-    'react/hook-use-state': 'error',
-    'react/iframe-missing-sandbox': 'error',
+    // 'react/hook-use-state': 'error',
+    // 'react/iframe-missing-sandbox': 'error',
     'react/no-access-state-in-setstate': 'error',
     'react/no-adjacent-inline-elements': 'error',
     'react/no-array-index-key': 'error',
