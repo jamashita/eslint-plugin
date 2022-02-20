@@ -1,3 +1,10 @@
+## [1.61.1](https://github.com/jamashita/eslint-plugin/compare/v1.61.0...v1.61.1) (2022-02-20)
+
+
+### Bug Fixes
+
+* 🐛 rule typo ([434827a](https://github.com/jamashita/eslint-plugin/commit/434827ab5bf26ef51cdccadb87fa6c44dbd3d9a5))
+
 # [1.61.0](https://github.com/jamashita/eslint-plugin/compare/v1.60.0...v1.61.0) (2022-02-20)
 
 
