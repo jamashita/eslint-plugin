@@ -1,6 +1,6 @@
 {
   "name": "@jamashita/eslint-plugin",
-  "version": "1.56.1",
+  "version": "1.61.0",
   "private": false,
   "repository": {
     "type": "git",
@@ -19,9 +19,9 @@
     "update:upgrade": "ncu --packageManager yarn --upgrade"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.11.0",
-    "@typescript-eslint/parser": "5.11.0",
-    "@typescript-eslint/typescript-estree": "5.11.0",
+    "@typescript-eslint/eslint-plugin": "5.12.0",
+    "@typescript-eslint/parser": "5.12.0",
+    "@typescript-eslint/typescript-estree": "5.12.0",
     "eslint-plugin-import": "2.25.4",
     "eslint-plugin-jsx-a11y": "6.5.1",
     "eslint-plugin-node": "11.1.0",
@@ -37,7 +37,7 @@
     "@semantic-release/github": "8.0.2",
     "@semantic-release/npm": "9.0.0",
     "@semantic-release/release-notes-generator": "10.0.3",
-    "@types/node": "17.0.17",
+    "@types/node": "17.0.18",
     "@types/react": "17.0.39",
     "@types/react-dom": "17.0.11",
     "eslint": "8.9.0",
@@ -45,7 +45,7 @@
     "husky": "^7.0.4",
     "is-ci": "3.0.1",
     "lint-staged": "12.3.4",
-    "npm-check-updates": "12.3.0",
+    "npm-check-updates": "12.3.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "semantic-release": "19.0.2",
