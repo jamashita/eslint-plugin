@@ -1,3 +1,10 @@
+# [1.60.0](https://github.com/jamashita/eslint-plugin/compare/v1.59.0...v1.60.0) (2022-02-20)
+
+
+### Features
+
+* 🎸 package downgraded ([70ea3fc](https://github.com/jamashita/eslint-plugin/commit/70ea3fcbc8f018e718918fc75a7790e1ec583c0d))
+
 # [1.59.0](https://github.com/jamashita/eslint-plugin/compare/v1.58.0...v1.59.0) (2022-02-20)
 
 
