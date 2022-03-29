@@ -11,8 +11,7 @@ module.exports = {
     'sourceType': 'module'
   },
   'plugins': [
-    'import',
-    '@jamashita'
+    'import'
   ],
   'env': {
     'browser': true,

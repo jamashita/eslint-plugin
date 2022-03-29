@@ -14,7 +14,6 @@ module.exports = {
     'jsx-a11y',
     'react',
     'react-hooks',
-    '@typescript-eslint',
-    '@jamashita'
+    '@typescript-eslint'
   ]
 };

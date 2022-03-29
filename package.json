@@ -11,7 +11,7 @@
   "main": "./index.js",
   "scripts": {
     "commit": "git cz",
-    "format": "eslint 'examples/**/*.{ts,tsx}'",
+    "format": "eslint --fix 'examples/**/*.{ts,tsx}' --config configs/recommended.js",
     "prepare": "is-ci || husky install",
     "release": "semantic-release",
     "update": "yarn update:upgrade && yarn update:install",
