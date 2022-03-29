@@ -14,8 +14,7 @@ module.exports = {
   },
   'plugins': [
     'react',
-    'react-hooks',
-    '@jamashita'
+    'react-hooks'
   ],
   'env': {
     'browser': true,
@@ -52,7 +51,7 @@ module.exports = {
     'react/no-access-state-in-setstate': 'error',
     'react/no-adjacent-inline-elements': 'error',
     'react/no-array-index-key': 'error',
-    'react-no-arrow-function-lifecycle': 'error',
+    'react/no-arrow-function-lifecycle': 'error',
     'react/no-children-prop': 'error',
     'react/no-danger': 'error',
     'react/no-danger-with-children': 'error',
@@ -228,10 +227,6 @@ module.exports = {
     'react/jsx-props-no-spreading': 'error',
     'react/jsx-sort-default-props': 'off',
     'react/jsx-sort-props': 'off',
-    'react/jsx-space-before-closing': [
-      'error',
-      'always'
-    ],
     'react/jsx-tag-spacing': [
       'error',
       {

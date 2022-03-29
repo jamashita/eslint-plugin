@@ -1,3 +1,30 @@
+# [1.62.0](https://github.com/jamashita/eslint-plugin/compare/v1.61.2...v1.62.0) (2022-03-29)
+
+
+### Bug Fixes
+
+* 🐛 yarn install ([a42af35](https://github.com/jamashita/eslint-plugin/commit/a42af35808a49d34432859e64518bc0affd32807))
+
+
+### Features
+
+* 🎸 new rules adopted ([6d4ce08](https://github.com/jamashita/eslint-plugin/commit/6d4ce08a808fa6e570de477d243b2db8fbd1db15))
+* 🎸 packages updated ([c6f7677](https://github.com/jamashita/eslint-plugin/commit/c6f7677f1bf699b64d53d55a1235ed8d34588716))
+
+## [1.61.2](https://github.com/jamashita/eslint-plugin/compare/v1.61.1...v1.61.2) (2022-02-20)
+
+
+### Bug Fixes
+
+* 🐛 removed unfound rules ([d617941](https://github.com/jamashita/eslint-plugin/commit/d6179419ded0a0ad873183d92971e8012230f6ce))
+
+## [1.61.1](https://github.com/jamashita/eslint-plugin/compare/v1.61.0...v1.61.1) (2022-02-20)
+
+
+### Bug Fixes
+
+* 🐛 rule typo ([434827a](https://github.com/jamashita/eslint-plugin/commit/434827ab5bf26ef51cdccadb87fa6c44dbd3d9a5))
+
 # [1.61.0](https://github.com/jamashita/eslint-plugin/compare/v1.60.0...v1.61.0) (2022-02-20)
 
 

@@ -9,8 +9,7 @@ module.exports = {
     'sourceType': 'module'
   },
   'plugins': [
-    'jsx-a11y',
-    '@jamashita'
+    'jsx-a11y'
   ],
   'env': {
     'browser': true,
