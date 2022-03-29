@@ -14,8 +14,7 @@ module.exports = {
   },
   'plugins': [
     'react',
-    'react-hooks',
-    '@jamashita'
+    'react-hooks'
   ],
   'env': {
     'browser': true,
@@ -47,8 +46,8 @@ module.exports = {
         'unnamedComponents': 'arrow-function'
       }
     ],
-    // 'react/hook-use-state': 'error',
-    // 'react/iframe-missing-sandbox': 'error',
+    'react/hook-use-state': 'error',
+    'react/iframe-missing-sandbox': 'error',
     'react/no-access-state-in-setstate': 'error',
     'react/no-adjacent-inline-elements': 'error',
     'react/no-array-index-key': 'error',
@@ -228,10 +227,6 @@ module.exports = {
     'react/jsx-props-no-spreading': 'error',
     'react/jsx-sort-default-props': 'off',
     'react/jsx-sort-props': 'off',
-    'react/jsx-space-before-closing': [
-      'error',
-      'always'
-    ],
     'react/jsx-tag-spacing': [
       'error',
       {

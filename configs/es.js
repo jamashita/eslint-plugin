@@ -8,9 +8,7 @@ module.exports = {
     'ecmaVersion': 2021,
     'sourceType': 'module'
   },
-  'plugins': [
-    '@jamashita'
-  ],
+  'plugins': [],
   'env': {
     'es2020': true,
     'es2021': true,
@@ -286,7 +284,7 @@ module.exports = {
     'semi-style': 'error',
     'sort-keys': 'off',
     'sort-vars': 'error',
-    'space-before-blocks': 'error',
+    'space-before-blocks': 'off',
     'space-before-function-paren': 'off',
     'space-in-parens': [
       'error',

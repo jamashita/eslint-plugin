@@ -9,8 +9,7 @@ module.exports = {
     'sourceType': 'module'
   },
   'plugins': [
-    'node',
-    '@jamashita'
+    'node'
   ],
   'env': {
     'es2020': true,
