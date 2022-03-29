@@ -14,8 +14,7 @@ module.exports = {
     'tsconfigRootDir': '.'
   },
   'plugins': [
-    '@typescript-eslint',
-    '@jamashita'
+    '@typescript-eslint'
   ],
   'env': {
     'es2020': true,
@@ -187,6 +186,7 @@ module.exports = {
         '@typescript-eslint/no-non-null-asserted-optional-chain': 'error',
         '@typescript-eslint/no-non-null-assertion': 'error',
         '@typescript-eslint/no-parameter-properties': 'error',
+        '@typescript-eslint/no-redundant-type-constituents': 'error',
         '@typescript-eslint/no-require-imports': 'error',
         '@typescript-eslint/no-this-alias': [
           'error',
@@ -206,6 +206,7 @@ module.exports = {
         '@typescript-eslint/no-unsafe-call': 'error',
         '@typescript-eslint/no-unsafe-member-access': 'error',
         '@typescript-eslint/no-unsafe-return': 'error',
+        '@typescript-eslint/no-useless-empty-export': 'error',
         '@typescript-eslint/no-var-requires': 'error',
         '@typescript-eslint/non-nullable-type-assertion-style': 'error',
         '@typescript-eslint/prefer-as-const': 'error',
@@ -352,6 +353,7 @@ module.exports = {
         '@typescript-eslint/require-await': 'error',
         '@typescript-eslint/return-await': 'error',
         '@typescript-eslint/semi': 'error',
+        '@typescript-eslint/space-before-blocks': 'error',
         '@typescript-eslint/space-before-function-paren': [
           'error',
           {
