@@ -1,6 +1,6 @@
 {
   "name": "@jamashita/eslint-plugin",
-  "version": "1.64.0",
+  "version": "1.65.0",
   "private": false,
   "repository": {
     "type": "git",
@@ -19,45 +19,45 @@
     "update:upgrade": "ncu --packageManager yarn --deep --upgrade"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.22.0",
-    "@typescript-eslint/parser": "5.22.0",
-    "@typescript-eslint/typescript-estree": "5.22.0",
+    "@typescript-eslint/eslint-plugin": "5.27.0",
+    "@typescript-eslint/parser": "5.27.0",
+    "@typescript-eslint/typescript-estree": "5.27.0",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-jsx-a11y": "6.5.1",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-react": "7.29.4",
+    "eslint-plugin-react": "7.30.0",
     "eslint-plugin-react-hooks": "4.5.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "16.2.4",
-    "@commitlint/config-conventional": "16.2.4",
+    "@commitlint/cli": "17.0.2",
+    "@commitlint/config-conventional": "17.0.2",
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/commit-analyzer": "9.0.2",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "8.0.4",
     "@semantic-release/npm": "9.0.1",
     "@semantic-release/release-notes-generator": "10.0.3",
-    "@types/node": "17.0.31",
-    "@types/react": "18.0.8",
-    "@types/react-dom": "18.0.3",
-    "eslint": "8.14.0",
-    "git-cz": "4.8.0",
-    "husky": "^7.0.4",
+    "@types/node": "17.0.39",
+    "@types/react": "18.0.10",
+    "@types/react-dom": "18.0.5",
+    "eslint": "8.17.0",
+    "git-cz": "4.9.0",
+    "husky": "8.0.1",
     "is-ci": "3.0.1",
-    "lint-staged": "12.4.1",
-    "npm-check-updates": "12.5.11",
+    "lint-staged": "13.0.0",
+    "npm-check-updates": "13.1.1",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "semantic-release": "19.0.2",
     "sort-package-json": "1.57.0",
-    "typescript": "4.6.4"
+    "typescript": "4.7.3"
   },
   "peerDependencies": {
-    "eslint": "8.14.0",
-    "typescript": "4.6.4"
+    "eslint": "8.17.0",
+    "typescript": "4.7.3"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=16.0.0"
   },
   "engineStrict": true,
   "publishConfig": {
