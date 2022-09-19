@@ -196,7 +196,13 @@ module.exports = {
         'when': 'multiline'
       }
     ],
-    'react/jsx-newline': 'off',
+    'react/jsx-newline': [
+      'error',
+      {
+        'prevent': true,
+        'allowMultilines': false
+      }
+    ],
     'react/jsx-no-bind': [
       'error',
       {
