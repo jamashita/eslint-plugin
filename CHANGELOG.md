@@ -1,3 +1,10 @@
+# [1.72.0](https://github.com/jamashita/eslint-plugin/compare/v1.71.0...v1.72.0) (2022-10-24)
+
+
+### Features
+
+* 🎸 packgges updated ([654a12b](https://github.com/jamashita/eslint-plugin/commit/654a12bce96ddeb69d916100f3a53bd2abe60eef))
+
 # [1.71.0](https://github.com/jamashita/eslint-plugin/compare/v1.70.0...v1.71.0) (2022-10-19)
 
 
