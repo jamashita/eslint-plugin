@@ -20,6 +20,8 @@ jobs:
           node-version: '18.0'
           registry-url: 'https://npm.pkg.github.com'
           scope: '@jamashita'
+        env:
+          NODE_AUTH_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
       - name: 'Set up'
         run: 'yarn install --frozen-lockfile'
       - name: 'Publish to GPR'
