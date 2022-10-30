@@ -1,3 +1,10 @@
+# [1.76.0](https://github.com/jamashita/eslint-plugin/compare/v1.75.0...v1.76.0) (2022-10-30)
+
+
+### Features
+
+* 🎸 turn off deprecated option ([3d39e9c](https://github.com/jamashita/eslint-plugin/commit/3d39e9c2c1ca05235751770d61c9d7a721c49c42))
+
 # [1.75.0](https://github.com/jamashita/eslint-plugin/compare/v1.74.0...v1.75.0) (2022-10-24)
 
 
