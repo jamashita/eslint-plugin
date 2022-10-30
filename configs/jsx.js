@@ -57,7 +57,7 @@ module.exports = {
     ],
     'jsx-a11y/no-noninteractive-element-to-interactive-role': 'error',
     'jsx-a11y/no-noninteractive-tabindex': 'off',
-    'jsx-a11y/no-onchange': 'error',
+    'jsx-a11y/no-onchange': 'off',
     'jsx-a11y/no-redundant-roles': 'error',
     'jsx-a11y/no-static-element-interactions': [
       'error',
