@@ -49,7 +49,7 @@ module.exports = {
         ],
         '@typescript-eslint/consistent-indexed-object-style': [
           'error',
-          'index-signature'
+          'record'
         ],
         '@typescript-eslint/consistent-type-assertions': [
           'error',
