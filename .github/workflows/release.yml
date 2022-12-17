@@ -18,10 +18,15 @@ jobs:
         uses: 'actions/setup-node@v3'
         with:
           node-version: '18.0'
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@jamashita'
+          always-auth: true
+        env:
+          NODE_AUTH_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
       - name: 'Set up'
         run: 'yarn install --frozen-lockfile'
-      - name: 'Publish to NPM'
+      - name: 'Publish to GPR'
         run: 'yarn release'
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
-          NPM_TOKEN: '${{ secrets.NPM_TOKEN }}'
+          NPM_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
