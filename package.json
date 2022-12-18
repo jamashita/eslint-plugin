@@ -1,6 +1,6 @@
 {
   "name": "@jamashita/eslint-plugin",
-  "version": "1.79.0",
+  "version": "1.80.0",
   "private": false,
   "repository": {
     "type": "git",
@@ -9,6 +9,10 @@
   "license": "MIT",
   "author": "jamashita <jamashita@arachnid.xyz>",
   "main": "./index.js",
+  "files": [
+    "configs",
+    "index.js"
+  ],
   "scripts": {
     "commit": "git cz",
     "format": "eslint --fix 'examples/**/*.{ts,tsx}' --config configs/recommended.js",
@@ -37,7 +41,7 @@
     "@semantic-release/github": "8.0.7",
     "@semantic-release/npm": "9.0.1",
     "@semantic-release/release-notes-generator": "10.0.3",
-    "@types/node": "18.11.16",
+    "@types/node": "18.11.17",
     "@types/react": "18.0.26",
     "@types/react-dom": "18.0.9",
     "git-cz": "4.9.0",
@@ -59,6 +63,7 @@
   },
   "engineStrict": true,
   "publishConfig": {
-    "access": "public"
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
   }
 }
