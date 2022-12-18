@@ -18,9 +18,9 @@ jobs:
         uses: 'actions/setup-node@v3'
         with:
           node-version: '18.0'
+          cache: 'yarn'
           registry-url: 'https://npm.pkg.github.com'
           scope: '@jamashita'
-          always-auth: true
         env:
           NODE_AUTH_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
       - name: 'Set up'
