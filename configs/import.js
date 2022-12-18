@@ -55,10 +55,7 @@ module.exports = {
     'import/exports-last': 'off',
     'import/no-duplicates': 'error',
     'import/no-namespace': 'error',
-    'import/extensions': [
-      'error',
-      'never'
-    ],
+    'import/extensions': 'off',
     'import/order': 'off',
     'import/newline-after-import': 'error',
     'import/prefer-default-export': 'off',
