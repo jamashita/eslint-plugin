@@ -1,3 +1,15 @@
+# [1.80.0](https://github.com/jamashita/eslint-plugin/compare/v1.79.0...v1.80.0) (2022-12-18)
+
+
+### Bug Fixes
+
+* 🐛 file ([f453700](https://github.com/jamashita/eslint-plugin/commit/f4537006383703936d8f162bef542e31a48a769f))
+
+
+### Features
+
+* 🎸 import off ([350f761](https://github.com/jamashita/eslint-plugin/commit/350f761fc8619f14632ef244d02f2903f96d1dd5))
+
 # [1.79.0](https://github.com/jamashita/eslint-plugin/compare/v1.78.0...v1.79.0) (2022-12-17)
 
 
