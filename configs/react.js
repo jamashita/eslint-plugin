@@ -2,15 +2,16 @@
 
 module.exports = {
   'extends': [
+    require.resolve('./jsx.js'),
     'plugin:react/recommended',
     'plugin:react-hooks/recommended'
   ],
   'parserOptions': {
+    'ecmaVersion': 2021,
+    'sourceType': 'module',
     'ecmaFeatures': {
       'jsx': true
-    },
-    'ecmaVersion': 2021,
-    'sourceType': 'module'
+    }
   },
   'plugins': [
     'react',
