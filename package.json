@@ -30,7 +30,8 @@
     "eslint-plugin-jsx-a11y": "6.6.1",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-react": "7.31.11",
-    "eslint-plugin-react-hooks": "4.6.0"
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-solid": "0.9.1"
   },
   "devDependencies": {
     "@commitlint/cli": "17.3.0",
