@@ -1,3 +1,12 @@
+# [1.81.0](https://github.com/jamashita/eslint-plugin/compare/v1.80.0...v1.81.0) (2022-12-27)
+
+
+### Features
+
+* 🎸 add solid lints ([b03dbae](https://github.com/jamashita/eslint-plugin/commit/b03dbae9b2e3c0d8f00d560aa0c14c73b100386b))
+* 🎸 packages updated ([87009e0](https://github.com/jamashita/eslint-plugin/commit/87009e0339e19c9fff5aca2a11f59dd73ca88e16))
+* 🎸 remove react and jsx from recoomended ([89f4f36](https://github.com/jamashita/eslint-plugin/commit/89f4f366e66323ad995b51a83b93f2685bf9cff3))
+
 # [1.80.0](https://github.com/jamashita/eslint-plugin/compare/v1.79.0...v1.80.0) (2022-12-18)
 
 
