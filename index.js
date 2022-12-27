@@ -5,6 +5,7 @@ const node = require('./configs/node');
 const react = require('./configs/react');
 const ts = require('./configs/ts');
 const recommended = require('./configs/recommended');
+const solid = require('./configs/solid');
 
 module.exports = {
   'configs': {
@@ -14,6 +15,7 @@ module.exports = {
     node,
     react,
     ts,
-    recommended
+    recommended,
+    solid
   }
 };
