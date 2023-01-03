@@ -1,3 +1,12 @@
+# [1.82.0](https://github.com/jamashita/eslint-plugin/compare/v1.81.0...v1.82.0) (2023-01-03)
+
+
+### Features
+
+* 🎸 ecmaversion update ([93efb43](https://github.com/jamashita/eslint-plugin/commit/93efb43a022bb2514190ced2f79e5c8d3f3534cf))
+* 🎸 next rules ([d3b7d43](https://github.com/jamashita/eslint-plugin/commit/d3b7d43d3f3d9bb4271be0f14edf34a7b034a61b))
+* 🎸 packages updated ([1b5e84b](https://github.com/jamashita/eslint-plugin/commit/1b5e84b458068de7aaaa05abbbc2be06ec75a1cb))
+
 # [1.81.0](https://github.com/jamashita/eslint-plugin/compare/v1.80.0...v1.81.0) (2022-12-27)
 
 
