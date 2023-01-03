@@ -8,7 +8,7 @@ module.exports = {
   ],
   'parser': '@typescript-eslint/parser',
   'parserOptions': {
-    'ecmaVersion': 2021,
+    'ecmaVersion': 2022,
     'sourceType': 'module',
     'project': './tsconfig.json',
     'tsconfigRootDir': '.'

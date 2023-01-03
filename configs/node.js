@@ -5,7 +5,7 @@ module.exports = {
     'plugin:node/recommended'
   ],
   'parserOptions': {
-    'ecmaVersion': 2021,
+    'ecmaVersion': 2022,
     'sourceType': 'module'
   },
   'plugins': [
