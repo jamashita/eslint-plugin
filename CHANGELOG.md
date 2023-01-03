@@ -1,3 +1,10 @@
+## [1.82.1](https://github.com/jamashita/eslint-plugin/compare/v1.82.0...v1.82.1) (2023-01-03)
+
+
+### Bug Fixes
+
+* 🐛 forget to export net ([0f911a3](https://github.com/jamashita/eslint-plugin/commit/0f911a37996d37f989e5f3ef50df40bfd2bea9ff))
+
 # [1.82.0](https://github.com/jamashita/eslint-plugin/compare/v1.81.0...v1.82.0) (2023-01-03)
 
 
