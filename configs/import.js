@@ -7,7 +7,7 @@ module.exports = {
     'plugin:import/typescript'
   ],
   'parserOptions': {
-    'ecmaVersion': 2021,
+    'ecmaVersion': 2022,
     'sourceType': 'module'
   },
   'plugins': [
