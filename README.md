@@ -5,34 +5,35 @@
 
 ESLint Library bundle for us.
 
-## Rules
-
-### `@jamashita/eslint-plugin`
-
-#### Install
+## Install
 
 ```text
-yarn add @jamashita/eslint-plugin \
-  eslint \
-  typescript -D
+yarn add @jamashita/eslint-plugin typescript -D
 ```
 
-### Append in `.eslintrc`
+### Apply in `.eslintrc`
 
 ```json
 {
   "extends": [
-    "plugin:@jamashita/eslint-plugin/recommended"
-  ]
-}
-```
-
-or
-
-```json
-{
-  "extends": [
-    "plugin:@jamashita/recommended"
+    // eslint settings
+    "plugin:@jamashita/es",
+    // import settings
+    "plugin:@jamashita/import",
+    // JSX settings
+    "plugin:@jamashita/jsx",
+    // Next.js settings, including react settings
+    "plugin:@jamashita/next",
+    // Node.js settings
+    "plugin:@jamashita/node",
+    // React.js settings, including JSX settings
+    "plugin:@jamashita/react",
+    // including eslint, import, Node.js, TS settings
+    "plugin:@jamashita/recommended",
+    // including Solid.js settings, inclding JSX settings
+    "plugin:@jamashita/solid",
+    // including TS settings
+    "plugin:@jamashita/solid"
   ]
 }
 ```
