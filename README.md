@@ -22,7 +22,7 @@ yarn add @jamashita/eslint-plugin typescript -D
     "plugin:@jamashita/import",
     // JSX settings
     "plugin:@jamashita/jsx",
-    // Next.js settings, including react settings
+    // Next.js settings, including React.js settings
     "plugin:@jamashita/next",
     // Node.js settings
     "plugin:@jamashita/node",
@@ -30,9 +30,9 @@ yarn add @jamashita/eslint-plugin typescript -D
     "plugin:@jamashita/react",
     // including eslint, import, Node.js, TS settings
     "plugin:@jamashita/recommended",
-    // including Solid.js settings, inclding JSX settings
+    // Solid.js settings, inclding JSX settings
     "plugin:@jamashita/solid",
-    // including TS settings
+    // TS settings
     "plugin:@jamashita/solid"
   ]
 }
