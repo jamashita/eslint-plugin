@@ -65,6 +65,7 @@ module.exports = {
     'react/no-is-mounted': 'error',
     'react/no-multi-comp': 'error',
     'react/no-namespace': 'error',
+    'react/no-object-type-as-default-prop': 'off',
     'react/no-redundant-should-component-update': 'error',
     'react/no-render-return-value': 'error',
     'react/no-set-state': 'error',
@@ -233,7 +234,6 @@ module.exports = {
     'react/jsx-pascal-case': 'error',
     'react/jsx-props-no-multi-spaces': 'error',
     'react/jsx-props-no-spreading': 'error',
-    'react/jsx-sort-default-props': 'off',
     'react/jsx-sort-props': 'off',
     'react/jsx-tag-spacing': [
       'error',
