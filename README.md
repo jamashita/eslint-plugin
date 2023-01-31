@@ -33,7 +33,7 @@ yarn add @jamashita/eslint-plugin typescript -D
     // Solid.js settings, inclding JSX settings
     "plugin:@jamashita/solid",
     // TS settings
-    "plugin:@jamashita/solid"
+    "plugin:@jamashita/ts"
   ]
 }
 ```
