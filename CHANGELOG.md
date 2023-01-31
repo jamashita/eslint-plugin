@@ -1,3 +1,10 @@
+# [1.83.0](https://github.com/jamashita/eslint-plugin/compare/v1.82.1...v1.83.0) (2023-01-31)
+
+
+### Features
+
+* 🎸 update react rules ([b15044d](https://github.com/jamashita/eslint-plugin/commit/b15044d6bd6aeefebc40905b6c4cdc5ffe5fdbb7))
+
 ## [1.82.1](https://github.com/jamashita/eslint-plugin/compare/v1.82.0...v1.82.1) (2023-01-03)
 
 
