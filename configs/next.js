@@ -13,7 +13,7 @@ module.exports = {
     }
   },
   'plugins': [
-    'next'
+    '@next/next'
   ],
   'env': {
     'browser': true,
