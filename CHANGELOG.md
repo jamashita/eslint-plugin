@@ -1,3 +1,10 @@
+## [1.83.1](https://github.com/jamashita/eslint-plugin/compare/v1.83.0...v1.83.1) (2023-02-03)
+
+
+### Bug Fixes
+
+* 🐛 plugins ([616d28c](https://github.com/jamashita/eslint-plugin/commit/616d28cdccbd7408c43a717d33595bd76801e49f))
+
 # [1.83.0](https://github.com/jamashita/eslint-plugin/compare/v1.82.1...v1.83.0) (2023-01-31)
 
 
