@@ -1,3 +1,10 @@
+# [1.84.0](https://github.com/jamashita/eslint-plugin/compare/v1.83.1...v1.84.0) (2023-02-09)
+
+
+### Features
+
+* 🎸 add a package ([b3f118c](https://github.com/jamashita/eslint-plugin/commit/b3f118ce7e3ce21bb12fab3949f5a72d5e835eeb))
+
 ## [1.83.1](https://github.com/jamashita/eslint-plugin/compare/v1.83.0...v1.83.1) (2023-02-03)
 
 
