@@ -60,12 +60,7 @@ module.exports = {
         ],
         '@typescript-eslint/consistent-type-definitions': 'off',
         '@typescript-eslint/consistent-type-exports': 'off',
-        '@typescript-eslint/consistent-type-imports': [
-          'error',
-          {
-            'prefer': 'no-type-imports'
-          }
-        ],
+        '@typescript-eslint/consistent-type-imports': 'off',
         '@typescript-eslint/explicit-function-return-type': [
           'error',
           {
