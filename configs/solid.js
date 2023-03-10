@@ -45,6 +45,7 @@ module.exports = {
       }
     ],
     'solid/jsx-uses-vars': 'error',
+    'solid/no-array-handlers': 'error',
     'solid/no-destructure': 'error',
     'solid/no-innerhtml': 'error',
     'solid/no-proxy-apis': 'error',
