@@ -1,3 +1,10 @@
+## [1.84.1](https://github.com/jamashita/eslint-plugin/compare/v1.84.0...v1.84.1) (2023-02-11)
+
+
+### Bug Fixes
+
+* 🐛 merge dependabot ([da6f595](https://github.com/jamashita/eslint-plugin/commit/da6f595127d62ce29ccdf5214d5b6ddffe3fd339))
+
 # [1.84.0](https://github.com/jamashita/eslint-plugin/compare/v1.83.1...v1.84.0) (2023-02-09)
 
 

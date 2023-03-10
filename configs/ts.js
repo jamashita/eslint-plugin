@@ -47,6 +47,10 @@ module.exports = {
           'error',
           'fields'
         ],
+        '@typescript-eslint/consistent-generic-constructors': [
+          'error',
+          'constructor'
+        ],
         '@typescript-eslint/consistent-indexed-object-style': [
           'error',
           'record'
@@ -136,6 +140,7 @@ module.exports = {
         '@typescript-eslint/no-base-to-string': 'error',
         '@typescript-eslint/no-confusing-non-null-assertion': 'error',
         '@typescript-eslint/no-confusing-void-expression': 'error',
+        '@typescript-eslint/no-duplicate-enum-values': 'error',
         '@typescript-eslint/no-dynamic-delete': 'error',
         '@typescript-eslint/no-empty-interface': [
           'error',
@@ -159,6 +164,7 @@ module.exports = {
         ],
         '@typescript-eslint/no-floating-promises': 'error',
         '@typescript-eslint/no-for-in-array': 'error',
+        '@typescript-eslint/no-import-type-side-effects': 'error',
         '@typescript-eslint/no-inferrable-types': 'off',
         '@typescript-eslint/no-invalid-void-type': 'off',
         '@typescript-eslint/no-meaningless-void-operator': 'error',
@@ -170,6 +176,7 @@ module.exports = {
             'checksVoidReturn': false
           }
         ],
+        '@typescript-eslint/no-mixed-enums': 'error',
         '@typescript-eslint/no-namespace': [
           'error',
           {
@@ -199,11 +206,18 @@ module.exports = {
         '@typescript-eslint/no-unsafe-argument': 'error',
         '@typescript-eslint/no-unsafe-assignment': 'error',
         '@typescript-eslint/no-unsafe-call': 'error',
+        '@typescript-eslint/no-unsafe-declaration-merging': 'error',
         '@typescript-eslint/no-unsafe-member-access': 'error',
         '@typescript-eslint/no-unsafe-return': 'error',
         '@typescript-eslint/no-useless-empty-export': 'error',
         '@typescript-eslint/no-var-requires': 'error',
         '@typescript-eslint/non-nullable-type-assertion-style': 'error',
+        '@typescript-eslint/parameter-properties': [
+          'error',
+          {
+            'prefer': 'parameter-property'
+          }
+        ],
         '@typescript-eslint/prefer-as-const': 'error',
         '@typescript-eslint/prefer-enum-initializers': 'error',
         '@typescript-eslint/prefer-for-of': 'off',
@@ -230,6 +244,7 @@ module.exports = {
             'allowBoolean': true
           }
         ],
+        '@typescript-eslint/sort-type-constituents': 'error',
         '@typescript-eslint/sort-type-union-intersection-members': 'error',
         '@typescript-eslint/strict-boolean-expressions': [
           'error',
@@ -270,6 +285,7 @@ module.exports = {
         '@typescript-eslint/unbound-method': 'error',
         '@typescript-eslint/unified-signatures': 'off',
         // Extension Rules
+        '@typescript-eslint/block-spacing': 'error',
         '@typescript-eslint/brace-style': [
           'error',
           'stroustrup'
@@ -287,6 +303,7 @@ module.exports = {
           'error',
           'always'
         ],
+        '@typescript-eslint/key-spacing': 'error',
         '@typescript-eslint/keyword-spacing': [
           'error',
           {
