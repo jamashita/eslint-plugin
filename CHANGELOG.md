@@ -1,3 +1,10 @@
+## [1.85.1](https://github.com/jamashita/eslint-plugin/compare/v1.85.0...v1.85.1) (2023-03-10)
+
+
+### Bug Fixes
+
+* 🐛 prefer parameter changed ([358605e](https://github.com/jamashita/eslint-plugin/commit/358605edfaff060d6ff0824d40fe808a2bb3876a))
+
 # [1.85.0](https://github.com/jamashita/eslint-plugin/compare/v1.84.1...v1.85.0) (2023-03-10)
 
 
