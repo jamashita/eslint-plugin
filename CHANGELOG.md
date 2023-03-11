@@ -1,3 +1,10 @@
+## [1.85.2](https://github.com/jamashita/eslint-plugin/compare/v1.85.1...v1.85.2) (2023-03-11)
+
+
+### Bug Fixes
+
+* 🐛 consistent-generic-constructors ([c0f9e4f](https://github.com/jamashita/eslint-plugin/commit/c0f9e4f98dfd6e1848145e96afc6bf791c5dce7d))
+
 ## [1.85.1](https://github.com/jamashita/eslint-plugin/compare/v1.85.0...v1.85.1) (2023-03-10)
 
 
