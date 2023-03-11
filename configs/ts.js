@@ -49,7 +49,7 @@ module.exports = {
         ],
         '@typescript-eslint/consistent-generic-constructors': [
           'error',
-          'constructor'
+          'type-annotation'
         ],
         '@typescript-eslint/consistent-indexed-object-style': [
           'error',
