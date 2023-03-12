@@ -16,8 +16,6 @@ yarn add @jamashita/eslint-plugin typescript -D
 ```json
 {
   "extends": [
-    // eslint settings
-    "plugin:@jamashita/es",
     // import settings
     "plugin:@jamashita/import",
     // JSX settings
