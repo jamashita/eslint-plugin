@@ -1,3 +1,11 @@
+# [1.86.0](https://github.com/jamashita/eslint-plugin/compare/v1.85.2...v1.86.0) (2023-03-12)
+
+
+### Features
+
+* 🎸 package updated ([4fd7372](https://github.com/jamashita/eslint-plugin/commit/4fd7372dd83b2d6c554a4eca6fca929b4d3c3cbd))
+* 🎸 remove es cnonfig ([7a4771a](https://github.com/jamashita/eslint-plugin/commit/7a4771abb7d3106024e9d1aa8e2051be6faaede5))
+
 ## [1.85.2](https://github.com/jamashita/eslint-plugin/compare/v1.85.1...v1.85.2) (2023-03-11)
 
 
