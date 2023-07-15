@@ -1,3 +1,19 @@
+# [1.89.0](https://github.com/jamashita/eslint-plugin/compare/v1.88.0...v1.89.0) (2023-07-15)
+
+
+### Bug Fixes
+
+* 🐛 litn setting ([015d688](https://github.com/jamashita/eslint-plugin/commit/015d6882a1c3cd883440cff01eec03e1eef5ecbd))
+
+
+### Features
+
+* 🎸 add new rules ([6b64b48](https://github.com/jamashita/eslint-plugin/commit/6b64b48cf391a4f76b162f8560970c27eee6f74d))
+* 🎸 nextjs rules ([4086a4e](https://github.com/jamashita/eslint-plugin/commit/4086a4e624ae05bbde8c7aebf4d3aa701acc56b1))
+* 🎸 pacakagesu pdated ([0ef6e91](https://github.com/jamashita/eslint-plugin/commit/0ef6e9117a7cdf2b0e6a401b35d5ca2ce00636fb))
+* 🎸 packages updated ([2e3539a](https://github.com/jamashita/eslint-plugin/commit/2e3539a4eb962fe4d8e9316f7205480abaa36663))
+* 🎸 ts error renewal ([bb7180e](https://github.com/jamashita/eslint-plugin/commit/bb7180ecc917562fd3cc84329f0ce970da6b4cec))
+
 # [1.88.0](https://github.com/jamashita/eslint-plugin/compare/v1.87.0...v1.88.0) (2023-06-03)
 
 
