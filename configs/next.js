@@ -6,7 +6,7 @@ module.exports = {
     'plugin:@next/next/recommended'
   ],
   'parserOptions': {
-    'ecmaVersion': 2022,
+    'ecmaVersion': 2024,
     'sourceType': 'module',
     'ecmaFeatures': {
       'jsx': true

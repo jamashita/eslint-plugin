@@ -296,7 +296,7 @@ module.exports = {
     'keyword-spacing': 'off',
     'line-comment-position': 'error',
     'linebreak-style': 'error',
-    'lines-around-comment': 'error',
+    'lines-around-comment': 'off',
     'lines-between-class-members': 'off',
     'max-len': 'off',
     'max-statements-per-line': 'off',

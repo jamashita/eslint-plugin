@@ -4,14 +4,14 @@ module.exports = {
   'extends': [
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking'
+    'plugin:@typescript-eslint/recommended-type-checked'
   ],
   'parser': '@typescript-eslint/parser',
   'parserOptions': {
-    'ecmaVersion': 2022,
+    'ecmaVersion': 2024,
     'sourceType': 'module',
-    'project': './tsconfig.json',
-    'tsconfigRootDir': '.'
+    'project': true,
+    'tsconfigRootDir': __dirname
   },
   'plugins': [
     '@typescript-eslint'
@@ -187,7 +187,6 @@ module.exports = {
         '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 'error',
         '@typescript-eslint/no-non-null-asserted-optional-chain': 'error',
         '@typescript-eslint/no-non-null-assertion': 'error',
-        '@typescript-eslint/no-parameter-properties': 'error',
         '@typescript-eslint/no-redundant-type-constituents': 'error',
         '@typescript-eslint/no-require-imports': 'error',
         '@typescript-eslint/no-this-alias': [
@@ -207,6 +206,7 @@ module.exports = {
         '@typescript-eslint/no-unsafe-assignment': 'error',
         '@typescript-eslint/no-unsafe-call': 'error',
         '@typescript-eslint/no-unsafe-declaration-merging': 'error',
+        '@typescript-eslint/no-unsafe-enum-comparison': 'error',
         '@typescript-eslint/no-unsafe-member-access': 'error',
         '@typescript-eslint/no-unsafe-return': 'error',
         '@typescript-eslint/no-useless-empty-export': 'error',
@@ -245,7 +245,6 @@ module.exports = {
           }
         ],
         '@typescript-eslint/sort-type-constituents': 'error',
-        '@typescript-eslint/sort-type-union-intersection-members': 'error',
         '@typescript-eslint/strict-boolean-expressions': [
           'error',
           {
@@ -311,10 +310,10 @@ module.exports = {
             'after': true
           }
         ],
+        '@typescript-eslint/lines-around-comment': 'error',
         '@typescript-eslint/lines-between-class-members': 'off',
         '@typescript-eslint/no-array-constructor': 'error',
         '@typescript-eslint/no-dupe-class-members': 'error',
-        '@typescript-eslint/no-duplicate-imports': 'error',
         '@typescript-eslint/no-empty-function': [
           'error',
           {
