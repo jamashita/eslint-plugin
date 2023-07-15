@@ -10,8 +10,8 @@ module.exports = {
   'parserOptions': {
     'ecmaVersion': 2024,
     'sourceType': 'module',
-    'project': true,
-    'tsconfigRootDir': __dirname
+    'project': './tsconfig.json',
+    'tsconfigRootDir': '.'
   },
   'plugins': [
     '@typescript-eslint'
