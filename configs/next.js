@@ -27,6 +27,7 @@ module.exports = {
     '@next/next/inline-script-id': 'error',
     '@next/next/next-script-for-ga': 'error',
     '@next/next/no-assign-module-variable': 'error',
+    '@next/next/no-async-client-components': 'error',
     '@next/next/no-before-interactive-script-outside-document': 'error',
     '@next/next/no-css-tags': 'error',
     '@next/next/no-document-import-in-page': 'error',
