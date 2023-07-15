@@ -6,7 +6,7 @@ module.exports = {
     'plugin:solid/typescript'
   ],
   'parserOptions': {
-    'ecmaVersion': 2022,
+    'ecmaVersion': 2024,
     'sourceType': 'module',
     'ecmaFeatures': {
       'jsx': true
