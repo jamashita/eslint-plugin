@@ -5,7 +5,7 @@ module.exports = {
     'eslint:recommended'
   ],
   'parserOptions': {
-    'ecmaVersion': 2022,
+    'ecmaVersion': 2024,
     'sourceType': 'module'
   },
   'plugins': [],
@@ -119,6 +119,10 @@ module.exports = {
     'id-length': 'off',
     'id-match': 'off',
     'init-declarations': 'off',
+    'logical-assignment-operators': [
+      'error',
+      'never'
+    ],
     'max-classes-per-file': 'error',
     'max-depth': 'off',
     'max-lines': 'off',
@@ -292,7 +296,7 @@ module.exports = {
     'keyword-spacing': 'off',
     'line-comment-position': 'error',
     'linebreak-style': 'error',
-    'lines-around-comment': 'error',
+    'lines-around-comment': 'off',
     'lines-between-class-members': 'off',
     'max-len': 'off',
     'max-statements-per-line': 'off',
