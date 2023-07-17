@@ -1,3 +1,10 @@
+## [1.89.1](https://github.com/jamashita/eslint-plugin/compare/v1.89.0...v1.89.1) (2023-07-17)
+
+
+### Bug Fixes
+
+* 🐛 typo ([5fbb46f](https://github.com/jamashita/eslint-plugin/commit/5fbb46fd9a38c39851445b8286e3cd601e1219de))
+
 # [1.89.0](https://github.com/jamashita/eslint-plugin/compare/v1.88.0...v1.89.0) (2023-07-15)
 
 
