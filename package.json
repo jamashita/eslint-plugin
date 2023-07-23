@@ -1,6 +1,6 @@
 {
   "name": "@jamashita/eslint-plugin",
-  "version": "1.89.1",
+  "version": "1.90.0",
   "private": false,
   "repository": {
     "type": "git",
@@ -43,7 +43,7 @@
     "@semantic-release/github": "9.0.4",
     "@semantic-release/npm": "10.0.4",
     "@semantic-release/release-notes-generator": "11.0.4",
-    "@types/node": "20.4.3",
+    "@types/node": "20.4.4",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
     "git-cz": "4.9.0",
