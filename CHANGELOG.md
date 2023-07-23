@@ -1,3 +1,11 @@
+# [1.91.0](https://github.com/jamashita/eslint-plugin/compare/v1.90.0...v1.91.0) (2023-07-23)
+
+
+### Features
+
+* 🎸 packaegs updated ([4398f7d](https://github.com/jamashita/eslint-plugin/commit/4398f7d5b6bb1852945a15071b535223ec4bce76))
+* 🎸 typedef update ([a70f9c9](https://github.com/jamashita/eslint-plugin/commit/a70f9c9f5e2d20ef97fda9b4e487033d6fd0311c))
+
 # [1.90.0](https://github.com/jamashita/eslint-plugin/compare/v1.89.1...v1.90.0) (2023-07-22)
 
 
