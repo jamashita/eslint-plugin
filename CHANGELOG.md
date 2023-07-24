@@ -1,3 +1,10 @@
+# [1.92.0](https://github.com/jamashita/eslint-plugin/compare/v1.91.0...v1.92.0) (2023-07-24)
+
+
+### Features
+
+* 🎸 ignore function type annotation ([e235fcf](https://github.com/jamashita/eslint-plugin/commit/e235fcf2f6e620a8296bac607a9871e0494740b8))
+
 # [1.91.0](https://github.com/jamashita/eslint-plugin/compare/v1.90.0...v1.91.0) (2023-07-23)
 
 

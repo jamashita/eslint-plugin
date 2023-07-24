@@ -278,7 +278,7 @@ module.exports = {
             'parameter': true,
             'propertyDeclaration': true,
             'variableDeclaration': true,
-            'variableDeclarationIgnoreFunction': false
+            'variableDeclarationIgnoreFunction': true
           }
         ],
         '@typescript-eslint/unbound-method': 'error',
