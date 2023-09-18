@@ -11,6 +11,19 @@ ESLint Library bundle for us.
 yarn add @jamashita/eslint-plugin typescript -D
 ```
 
+## Prerequisite
+
+```
+> node -v
+v20.6.1
+
+> npm -v
+9.8.1
+
+> yarn -v
+1.22.19
+```
+
 ### Apply in `.eslintrc`
 
 ```json
