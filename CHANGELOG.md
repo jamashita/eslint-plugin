@@ -1,3 +1,11 @@
+# [1.93.0](https://github.com/jamashita/eslint-plugin/compare/v1.92.0...v1.93.0) (2023-09-18)
+
+
+### Features
+
+* 🎸 pacakges updated ([3ccd258](https://github.com/jamashita/eslint-plugin/commit/3ccd2586e996c0724c7e8b1c810aa836e857a47f))
+* 🎸 yarn.lock updated ([edbbe49](https://github.com/jamashita/eslint-plugin/commit/edbbe49bfbe03f8770a9e09a7da9f03236b4ab09))
+
 # [1.92.0](https://github.com/jamashita/eslint-plugin/compare/v1.91.0...v1.92.0) (2023-07-24)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@jamashita/eslint-plugin",
-  "version": "1.92.0",
+  "version": "1.93.0",
   "private": false,
   "repository": {
     "type": "git",
@@ -61,7 +61,7 @@
     "typescript": "5.1.6"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=20.x"
   },
   "engineStrict": true,
   "publishConfig": {
