@@ -1,3 +1,10 @@
+## [1.93.1](https://github.com/jamashita/eslint-plugin/compare/v1.93.0...v1.93.1) (2023-09-18)
+
+
+### Bug Fixes
+
+* 🐛 required version ([bb4a2fd](https://github.com/jamashita/eslint-plugin/commit/bb4a2fdbdbee8519e1535ffcc515c5be6f0f96b2))
+
 # [1.93.0](https://github.com/jamashita/eslint-plugin/compare/v1.92.0...v1.93.0) (2023-09-18)
 
 
