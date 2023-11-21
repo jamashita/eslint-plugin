@@ -1,3 +1,10 @@
+# [1.96.0](https://github.com/jamashita/eslint-plugin/compare/v1.95.0...v1.96.0) (2023-11-21)
+
+
+### Features
+
+* 🎸 rules updated ([48502d4](https://github.com/jamashita/eslint-plugin/commit/48502d421d515b2961c7fe6a8b9a78922214fa64))
+
 # [1.95.0](https://github.com/jamashita/eslint-plugin/compare/v1.94.0...v1.95.0) (2023-10-22)
 
 

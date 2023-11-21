@@ -23,6 +23,7 @@ module.exports = {
   'rules': {
     /* jsx-a11y */
     'jsx-a11y/alt-text': 'error',
+    'jsx-a11y/anchor-ambiguous-text': 'off',
     'jsx-a11y/anchor-has-content': 'error',
     'jsx-a11y/anchor-is-valid': 'error',
     'jsx-a11y/aria-activedescendant-has-tabindex': 'off',
@@ -32,6 +33,7 @@ module.exports = {
     'jsx-a11y/aria-unsupported-elements': 'error',
     'jsx-a11y/autocomplete-valid': 'error',
     'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/control-has-associated-label': 'off',
     'jsx-a11y/heading-has-content': 'error',
     'jsx-a11y/html-has-lang': 'off',
     'jsx-a11y/iframe-has-title': 'error',
@@ -42,6 +44,7 @@ module.exports = {
     'jsx-a11y/media-has-caption': 'error',
     'jsx-a11y/mouse-events-have-key-events': 'error',
     'jsx-a11y/no-access-key': 'error',
+    'jsx-a11y/no-aria-hidden-on-focusable': 'error',
     'jsx-a11y/no-autofocus': 'error',
     'jsx-a11y/no-distracting-elements': 'error',
     'jsx-a11y/no-interactive-element-to-noninteractive-role': 'error',
@@ -60,7 +63,6 @@ module.exports = {
     ],
     'jsx-a11y/no-noninteractive-element-to-interactive-role': 'error',
     'jsx-a11y/no-noninteractive-tabindex': 'off',
-    'jsx-a11y/no-onchange': 'off',
     'jsx-a11y/no-redundant-roles': 'error',
     'jsx-a11y/no-static-element-interactions': [
       'error',
@@ -75,6 +77,7 @@ module.exports = {
         ]
       }
     ],
+    'jsx-a11y/prefer-tag-over-role': 'error',
     'jsx-a11y/role-has-required-aria-props': 'error',
     'jsx-a11y/role-supports-aria-props': 'error',
     'jsx-a11y/scope': 'error',
