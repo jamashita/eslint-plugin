@@ -137,7 +137,6 @@ module.exports = {
     'no-bitwise': 'error',
     'no-caller': 'error',
     'no-case-declarations': 'error',
-    'no-confusing-arrow': 'error',
     'no-console': 'error',
     'no-continue': 'off',
     'no-delete-var': 'error',
@@ -152,8 +151,6 @@ module.exports = {
     'no-extra-bind': 'error',
     'no-extra-boolean-cast': 'error',
     'no-extra-label': 'error',
-    'no-extra-semi': 'off',
-    'no-floating-decimal': 'error',
     'no-global-assign': 'error',
     'no-implicit-coercion': 'error',
     'no-implicit-globals': 'error',
@@ -167,16 +164,15 @@ module.exports = {
     'no-lonely-if': 'error',
     'no-loop-func': 'off',
     'no-magic-numbers': 'off',
-    'no-mixed-operators': 'error',
     'no-multi-assign': 'error',
     'no-multi-str': 'error',
     'no-negated-condition': 'error',
     'no-nested-ternary': 'error',
     'no-new': 'error',
     'no-new-func': 'error',
-    'no-new-object': 'error',
     'no-new-wrappers': 'error',
     'no-nonoctal-decimal-escape': 'error',
+    'no-object-constructor': 'error',
     'no-octal': 'error',
     'no-octal-escape': 'error',
     'no-param-reassign': 'error',
@@ -190,7 +186,6 @@ module.exports = {
     'no-restricted-properties': 'error',
     'no-restricted-syntax': 'error',
     'no-return-assign': 'error',
-    'no-return-await': 'error',
     'no-script-url': 'error',
     'no-sequences': [
       'error',
@@ -225,11 +220,10 @@ module.exports = {
       'error',
       'never'
     ],
-    'one-var-declaration-per-line': 'error',
     'operator-assignment': 'error',
     'prefer-arrow-callback': 'error',
     'prefer-const': 'error',
-    'prefer-destructuring': 'error',
+    'prefer-destructuring': 'off',
     'prefer-exponentiation-operator': 'error',
     'prefer-named-capture-group': 'off',
     'prefer-numeric-literals': 'error',
@@ -251,101 +245,12 @@ module.exports = {
     'sort-imports': 'off',
     'sort-keys': 'off',
     'sort-vars': 'error',
-    'spaced-comment': [
-      'error',
-      'always'
-    ],
     'strict': 'error',
     'symbol-description': 'off',
     'vars-on-top': 'error',
     'yoda': 'error',
     // Layout & Formatting
-    'array-bracket-newline': 'off',
-    'array-bracket-spacing': 'error',
-    'array-element-newline': [
-      'error',
-      'consistent'
-    ],
-    'arrow-parens': 'error',
-    'arrow-spacing': 'error',
-    'block-spacing': 'off',
-    'brace-style': 'off',
-    'comma-dangle': 'off',
-    'comma-spacing': 'off',
-    'comma-style': 'error',
-    'computed-property-spacing': 'error',
-    'dot-location': [
-      'error',
-      'property'
-    ],
-    'eol-last': 'error',
-    'func-call-spacing': 'off',
-    'function-call-argument-newline': [
-      'error',
-      'consistent'
-    ],
-    'function-paren-newline': [
-      'error',
-      'consistent'
-    ],
-    'generator-star-spacing': 'error',
-    'implicit-arrow-linebreak': 'error',
-    'indent': 'off',
-    'jsx-quotes': 'off',
-    'key-spacing': 'off',
-    'keyword-spacing': 'off',
     'line-comment-position': 'error',
-    'linebreak-style': 'error',
-    'lines-around-comment': 'off',
-    'lines-between-class-members': 'off',
-    'max-len': 'off',
-    'max-statements-per-line': 'off',
-    'multiline-ternary': 'error',
-    'new-parens': 'error',
-    'newline-per-chained-call': 'off',
-    'no-extra-parens': 'off',
-    'no-mixed-spaces-and-tabs': 'error',
-    'no-multi-spaces': 'off',
-    'no-multiple-empty-lines': 'error',
-    'no-tabs': 'error',
-    'no-trailing-spaces': 'error',
-    'no-whitespace-before-property': 'error',
-    'nonblock-statement-body-position': 'error',
-    'object-curly-newline': [
-      'error',
-      {
-        'consistent': true
-      }
-    ],
-    'object-curly-spacing': 'off',
-    'object-property-newline': [
-      'error',
-      {
-        'allowAllPropertiesOnSameLine': false
-      }
-    ],
-    'operator-linebreak': 'error',
-    'padded-blocks': 'off',
-    'padding-line-between-statements': 'off',
-    'quotes': 'off',
-    'rest-spread-spacing': 'error',
-    'semi': 'off',
-    'semi-spacing': 'error',
-    'semi-style': 'error',
-    'space-before-blocks': 'off',
-    'space-before-function-paren': 'off',
-    'space-in-parens': [
-      'error',
-      'never'
-    ],
-    'space-infix-ops': 'off',
-    'space-unary-ops': 'error',
-    'switch-colon-spacing': 'error',
-    'template-curly-spacing': 'error',
-    'template-tag-spacing': 'error',
-    'unicode-bom': 'error',
-    'wrap-iife': 'error',
-    'wrap-regex': 'error',
-    'yield-star-spacing': 'error'
+    'unicode-bom': 'error'
   }
 };
