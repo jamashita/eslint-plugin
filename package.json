@@ -1,6 +1,6 @@
 {
   "name": "@jamashita/eslint-plugin",
-  "version": "1.95.0",
+  "version": "1.96.0",
   "private": false,
   "repository": {
     "type": "git",
@@ -23,11 +23,11 @@
     "update:upgrade": "ncu --packageManager yarn --deep --upgrade"
   },
   "dependencies": {
-    "@next/eslint-plugin-next": "14.0.3",
-    "@typescript-eslint/eslint-plugin": "6.12.0",
-    "@typescript-eslint/parser": "6.12.0",
-    "eslint": "8.54.0",
-    "eslint-plugin-import": "2.29.0",
+    "@next/eslint-plugin-next": "14.0.4",
+    "@typescript-eslint/eslint-plugin": "6.14.0",
+    "@typescript-eslint/parser": "6.14.0",
+    "eslint": "8.56.0",
+    "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jsx-a11y": "6.8.0",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-react": "7.33.2",
@@ -35,27 +35,27 @@
     "eslint-plugin-solid": "0.13.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "18.4.2",
-    "@commitlint/config-conventional": "18.4.2",
+    "@commitlint/cli": "18.4.3",
+    "@commitlint/config-conventional": "18.4.3",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "11.1.0",
     "@semantic-release/git": "10.0.1",
-    "@semantic-release/github": "9.2.3",
-    "@semantic-release/npm": "11.0.1",
+    "@semantic-release/github": "9.2.5",
+    "@semantic-release/npm": "11.0.2",
     "@semantic-release/release-notes-generator": "12.1.0",
-    "@types/node": "20.9.2",
-    "@types/react": "18.2.37",
-    "@types/react-dom": "18.2.15",
+    "@types/node": "20.10.4",
+    "@types/react": "18.2.45",
+    "@types/react-dom": "18.2.18",
     "git-cz": "4.9.0",
     "husky": "8.0.3",
     "is-ci": "3.0.1",
-    "lint-staged": "15.1.0",
-    "npm-check-updates": "16.14.11",
+    "lint-staged": "15.2.0",
+    "npm-check-updates": "16.14.12",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "semantic-release": "22.0.8",
+    "semantic-release": "22.0.12",
     "sort-package-json": "2.6.0",
-    "typescript": "5.3.2"
+    "typescript": "5.3.3"
   },
   "peerDependencies": {
     "typescript": "5.1.6"
