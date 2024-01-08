@@ -203,7 +203,6 @@ module.exports = {
         '@typescript-eslint/no-extraneous-class': [
           'error',
           {
-            'allowStaticOnly': true,
             'allowWithDecorator': true
           }
         ],
@@ -375,8 +374,8 @@ module.exports = {
             'objectDestructuring': false,
             'parameter': true,
             'propertyDeclaration': true,
-            'variableDeclaration': true,
-            'variableDeclarationIgnoreFunction': true
+            'variableDeclaration': false,
+            'variableDeclarationIgnoreFunction': false
           }
         ],
         '@typescript-eslint/unbound-method': 'error',
