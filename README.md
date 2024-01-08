@@ -15,13 +15,13 @@ yarn add @jamashita/eslint-plugin typescript -D
 
 ```
 > node -v
-v20.6.1
+v20.10.0
 
 > npm -v
-9.8.1
+10.2.3
 
 > yarn -v
-1.22.19
+1.22.21
 ```
 
 ### Apply in `.eslintrc`
