@@ -1,3 +1,10 @@
+## [1.98.1](https://github.com/jamashita/eslint-plugin/compare/v1.98.0...v1.98.1) (2024-01-09)
+
+
+### Bug Fixes
+
+* 🐛 peer ([2c94ef8](https://github.com/jamashita/eslint-plugin/commit/2c94ef8f3e1e83d71e0785f835ce93f3b3531645))
+
 # [1.98.0](https://github.com/jamashita/eslint-plugin/compare/v1.97.0...v1.98.0) (2024-01-08)
 
 
