@@ -1,6 +1,6 @@
 {
   "name": "@jamashita/eslint-plugin",
-  "version": "1.96.0",
+  "version": "1.98.0",
   "private": false,
   "repository": {
     "type": "git",
@@ -58,7 +58,7 @@
     "typescript": "5.3.3"
   },
   "peerDependencies": {
-    "typescript": "5.1.6"
+    "typescript": "5.3.3"
   },
   "engines": {
     "node": ">=18.x"
