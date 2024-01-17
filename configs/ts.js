@@ -167,6 +167,7 @@ module.exports = {
           }
         ],
         '@typescript-eslint/no-array-constructor': 'error',
+        '@typescript-eslint/no-array-delete': 'error',
         '@typescript-eslint/no-base-to-string': 'error',
         '@typescript-eslint/no-confusing-non-null-assertion': 'error',
         '@typescript-eslint/no-confusing-void-expression': 'error',
@@ -284,6 +285,7 @@ module.exports = {
         '@typescript-eslint/no-use-before-define': 'error',
         '@typescript-eslint/no-useless-constructor': 'error',
         '@typescript-eslint/no-useless-empty-export': 'error',
+        '@typescript-eslint/no-useless-template-literals': 'error',
         '@typescript-eslint/no-var-requires': 'error',
         '@typescript-eslint/non-nullable-type-assertion-style': 'error',
         '@typescript-eslint/object-curly-spacing': [
@@ -307,6 +309,7 @@ module.exports = {
         '@typescript-eslint/prefer-namespace-keyword': 'off',
         '@typescript-eslint/prefer-nullish-coalescing': 'error',
         '@typescript-eslint/prefer-optional-chain': 'error',
+        '@typescript-eslint/prefer-promise-reject-errors': 'error',
         '@typescript-eslint/prefer-readonly': 'error',
         '@typescript-eslint/prefer-readonly-parameter-types': 'off',
         '@typescript-eslint/prefer-reduce-type-parameter': 'off',
