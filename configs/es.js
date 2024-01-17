@@ -229,7 +229,7 @@ module.exports = {
     'prefer-numeric-literals': 'error',
     'prefer-object-has-own': 'error',
     'prefer-object-spread': 'error',
-    'prefer-promise-reject-errors': 'error',
+    'prefer-promise-reject-errors': 'off',
     'prefer-regex-literals': 'error',
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
